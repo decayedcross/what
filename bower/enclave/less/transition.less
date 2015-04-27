@@ -1,0 +1,9 @@
+/*
+Easily set a transistion that works for all browers
+*/
+.enc-transition(@duration:1s, @ease:ease-out) {
+  -webkit-transition: all @duration @ease;
+  -moz-transition: all @duration @ease;
+  -o-transition: all @duration @ease;
+  transition: all @duration @ease;
+}

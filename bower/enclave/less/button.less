@@ -1,0 +1,14 @@
+/*Create a btn using padding to set the width / height*/
+.enc-create-btn(@border-width, @border-style, @border-color, @border-radius,
+@background-color, @background-opacity,
+@color, @font-size, 
+@padding-vertical, @padding-horizontal,
+@line-height)
+{
+	.enc-create-border(@border-width, @border-style, @border-color, @border-radius);
+	.enc-background-rgb(@color, @opacity);
+	color: @color;
+	font-size: @font-size;
+	padding: @padding-vertical @padding-horizontal;
+	line-height: @line-height;
+}

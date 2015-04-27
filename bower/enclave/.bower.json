@@ -4,7 +4,7 @@
   "authors": [
     "antfuentes87 <antfuentes87@gmail.com>"
   ],
-  "description": "Framework that does not depend on anything",
+  "description": "LESS Framework to help you get started.",
   "main": "load.less",
   "keywords": [
     "less",
@@ -13,14 +13,13 @@
     "javascript"
   ],
   "license": "MIT",
-  "_release": "56880454b3",
+  "_release": "0736f21ced",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "56880454b36c2d017ec209a6e05a1a29e4e20fec"
+    "commit": "0736f21cedd554ca22f0f4354c9de124ca60b861"
   },
   "_source": "git@github.com:antfuentes87/enclave.git",
   "_target": "*",
-  "_originalSource": "git@github.com:antfuentes87/enclave.git",
-  "_direct": true
+  "_originalSource": "git@github.com:antfuentes87/enclave.git"
 }

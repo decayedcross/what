@@ -1,0 +1,32 @@
+{
+  "name": "vikingfonticons",
+  "authors": [
+    "antfuentes87 <antfuentes87@gmail.com>"
+  ],
+  "description": "Collection of icons and fonts, Viking style",
+  "main": "load.less",
+  "keywords": [
+    "less",
+    "css",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/antfuentes87/vikingfonticons",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "d35d746b1f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d35d746b1f3bd344539abba002886bd2d085fa3e"
+  },
+  "_source": "git://github.com/antfuentes87/vikingfonticons.git",
+  "_target": "*",
+  "_originalSource": "antfuentes87/vikingfonticons",
+  "_direct": true
+}

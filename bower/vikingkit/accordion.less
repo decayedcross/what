@@ -1,0 +1,83 @@
+.vk-accordion(@accordionTitleFontFamily: 'Times New Roman',
+@accordionTitleIconFontFamily: 'FontAwesome',
+@accordionTitleIcon: "\f0fe",
+@accordionTitleIconActive: "\f146",
+@accordionTitleIconColor: #000000,
+@accordionTitleIconColorHover: #FFFFFF,
+@accordionTitleFontSize: 20px,
+@accordionTitleFontSizeRatio: 1, 
+@accordionTitleTextShadowColor: #000000,
+@accordionTitleTextShadowOpacity: 0.5,
+@accordionTitleTextShadowAngle: 2px,
+@accordionTitleTextShadowDistance: 2px,
+@accordionTitleTextShadowBlur: 2px,
+@accordionTitleColor: #FFFFFF, 
+@accordionTitleBgColor: #000000,
+@accordionTitleBgColorActive: #FFFFFF,
+@accordionTitleBgColorOpacity: 1,
+@accordionTitleBgColorHoverOpacity: 1,
+@accordionTitleBgColorActiveOpacity: 1,
+@accordionTitleBgColorActiveHoverOpacity: 1,
+@accordionTitleBorderWidth: 1,
+@accordionTitleBorderColor: #FFFFFF,
+@accordionTitleBorderRadius: 1,
+@accordionTitleBorderWidthHover: 1,
+@accordionTitleBorderColorHover: #FFFFFF,
+@accordionTitleBorderRadiusHover: 1,
+@accordionTitleBorderWidthActive: 1,
+@accordionTitleBorderColorActive: #FFFFFF,
+@accordionTitleBorderRadiusActive: 1)
+{
+	.uk-accordion-title{
+		.enc-user-select-none;
+		.enc-transition(0.5s, ease);
+		.enc-background-rgb(@accordionTitleBgColor, @accordionTitleBgColorOpacity);
+		.enc-media-auto-width(font-size, @accordionTitleFontSize, @accordionTitleFontSizeRatio);
+		.enc-media-auto-width(padding-left, 7px, 0.5);
+		.enc-media-auto-width(margin-top, 7px, 0.4);
+		.enc-media-auto-width(margin-bottom, 7px, 0.4);
+		.enc-create-border(@accordionTitleBorderWidth, solid, @accordionTitleBorderColor, @accordionTitleBorderRadius);
+		.enc-text-shadow(@accordionTitleTextShadowColor, @accordionTitleTextShadowOpacity, @accordionTitleTextShadowAngle,  @accordionTitleTextShadowDistance, @accordionTitleTextShadowBlur);
+		text-align: left;
+		font-weight: bold;
+		font-family: @accordionTitleFontFamily;
+		color: @accordionTitleColor;
+		&:hover{
+			.enc-background-rgb(@accordionTitleBgColor, @accordionTitleBgColorHoverOpacity);
+			.enc-create-border(@accordionTitleBorderWidthHover, solid, @accordionTitleBorderColorHover, @accordionTitleBorderRadiusHover);
+			color: @accordionTitleIconColorHover;
+		}
+		&:hover span{
+			color: @accordionTitleIconColorHover;
+		}
+		span{
+			.enc-transition(0.5s, ease);
+			color: @accordionTitleIconColor;
+			font-family: @accordionTitleIconFontFamily;
+			text-transform: none;
+			&:hover{
+				color: @accordionTitleIconColorHover;
+			}
+			&:before{
+				content: @accordionTitleIcon;
+			}
+		}
+	}
+	.uk-active{
+		.enc-background-rgb(@accordionTitleBgColorActive, @accordionTitleBgColorActiveOpacity);
+		.enc-create-border(@accordionTitleBorderWidthActive, solid, @accordionTitleBorderColorActive, @accordionTitleBorderRadiusActive);
+		.enc-transition(0.5s, ease);
+		color: @accordionTitleIconColorHover;
+		&:hover{
+			.enc-background-rgb(@accordionTitleBgColorActive, @accordionTitleBgColorActiveHoverOpacity);
+		}
+		span{
+			color: @accordionTitleIconColorHover;
+			font-family: @accordionTitleIconFontFamily;
+			text-transform: none;
+			&:before{
+				content: @accordionTitleIconActive;
+			}
+		}
+	}
+}

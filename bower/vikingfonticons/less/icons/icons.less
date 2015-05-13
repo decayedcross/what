@@ -1,0 +1,16 @@
+.vfi-icon(@font-family: 'null', @content: 'null',
+@display: inline-block,
+@font-weight: normal,
+@font-style: normal,
+@line-height: 1){
+    font-family: @font-family;
+    display: @display;
+    font-weight: @font-weight;
+    font-style: @font-style;
+    line-height: @line-height;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &:before{
+    	content: @content;
+    }
+}

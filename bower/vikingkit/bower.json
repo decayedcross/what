@@ -1,0 +1,25 @@
+{
+  "name": "vikingkit",
+  "version": "1.0",
+  "homepage": "https://github.com/ErikBal/vikingkit",
+  "authors": [
+    "VikingWD"
+  ],
+  "description": "uikit work-adjustment for VikingWD",
+  "main": "vikingkit.less",
+  "keywords": [
+    "uikit",
+    "jquery",
+    "html",
+    "css",
+    "less"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

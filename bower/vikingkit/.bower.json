@@ -1,0 +1,34 @@
+{
+  "name": "vikingkit",
+  "homepage": "https://github.com/ErikBal/vikingkit",
+  "authors": [
+    "VikingWD"
+  ],
+  "description": "uikit work-adjustment for VikingWD",
+  "main": "vikingkit.less",
+  "keywords": [
+    "uikit",
+    "jquery",
+    "html",
+    "css",
+    "less"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f6f9a25f3e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f6f9a25f3ecaf5d6353cf1c85907a1554fce44a9"
+  },
+  "_source": "git://github.com/erikbal/vikingkit.git",
+  "_target": "*",
+  "_originalSource": "erikbal/vikingkit",
+  "_direct": true
+}

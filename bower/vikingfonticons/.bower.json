@@ -19,14 +19,13 @@
     "test",
     "tests"
   ],
-  "_release": "d35d746b1f",
+  "_release": "6f6671d09d",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "d35d746b1f3bd344539abba002886bd2d085fa3e"
+    "commit": "6f6671d09da5343f0c97ab355ff69f178dc3ddf3"
   },
   "_source": "git://github.com/antfuentes87/vikingfonticons.git",
   "_target": "*",
-  "_originalSource": "antfuentes87/vikingfonticons",
-  "_direct": true
+  "_originalSource": "antfuentes87/vikingfonticons"
 }

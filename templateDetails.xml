@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4.1" type="template">
+	<name>what</name>
+	<creationDate>2015-27-04</creationDate>
+	<author>Super Viking Gang</author>
+	<authorEmail>contact@vikingwebdevelopment.com</authorEmail>
+	<authorUrl>http://www.vikingwebdevelopment.com</authorUrl>
+	<copyright>Viking Web Development</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>Joomla 3.x tmeplate using Bower and Git</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>README.md</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>.bowerrc</filename>
+		<folder>bower</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>_less</folder>
+		<folder>php</folder>
+		<folder>include</folder>
+	</files>
+	<positions>
+		<position>top-menu</position>
+		<position>logo</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+	</positions>
+</extension>

@@ -38,7 +38,4 @@
 <footer id="what-footer">
 	<jdoc:include type="modules" name="footer" />	
 </footer>
-<?php echo '<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>'; ?>
-<?php require_once('uikit.php'); ?>
-<?php require_once('enclave.php'); ?>
-<?php require_once('html.php'); ?>
+<?php require_once('_loadBody.php'); ?>

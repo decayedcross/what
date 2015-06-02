@@ -1,6 +1,6 @@
-<header>
-	<nav>
-		<section id="large-menu">
+<header id="what-header">
+	<nav id="nav">
+		<section id="large">
 			<div id="logo">
 				<a>
 					<jdoc:include type="modules" name="logo" />	
@@ -12,31 +12,30 @@
 				</ul>
 			</div>
 		</section>
-		<section id="small-menu">	
+		<section id="small">	
 			<div id="logo">
 				<ul>
 					<jdoc:include type="modules" name="logo" />	
 				</ul>
 			</div>
-			<div id="offcanvas">
-				<a href="#offcanvas-top-menu" data-uk-offcanvas>
-				</a>			
+			<div id="menu">
+				<a href="#what-header-nav-small-menu-offcanvas" data-uk-offcanvas></a>			
 			</div>
 		</section>
 	</nav>	
-	<div id="offcanvas-top-menu" class="uk-offcanvas">
-    	<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-      		<ul class="uk-nav">
-           		<jdoc:include type="modules" name="top-menu" />
-       		</ul>
-    	</div>
+	<div id="what-header-nav-small-menu-offcanvas" class="uk-offcanvas">
+    		<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+      			<ul class="uk-nav">
+           			<jdoc:include type="modules" name="top-menu" />
+       			</ul>
+    		</div>
 	</div>	
 </header>
-<main id="main">
-	<jdoc:include type="modules" name="position-1" />
-    <jdoc:include type="component" />
+<main id="what-main">
+	<jdoc:include type="modules" name="development" />
+    	<jdoc:include type="component" />
 </main>
-<footer id="footer">
+<footer id="what-footer">
 	<jdoc:include type="modules" name="footer" />	
 </footer>
 <?php echo '<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>'; ?>

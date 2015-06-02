@@ -13,11 +13,11 @@
     "javascript"
   ],
   "license": "MIT",
-  "_release": "b2c2fede1b",
+  "_release": "11ae50eb69",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "b2c2fede1b41f18dcbe1d932ac1169a597a2505d"
+    "commit": "11ae50eb696aadb5c97cce66c4edee7873a6ff46"
   },
   "_source": "git@github.com:antfuentes87/enclave.git",
   "_target": "*",

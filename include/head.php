@@ -45,8 +45,6 @@ $articleImageFulltext = $articleImages->image_fulltext;
 $articleImageFloatFulltext = $articleImages->float_fulltext;
 $articleImageFulltextAlt = $articleImages->image_fulltext_alt;
 $articleImageFulltextCaption = $articleImages->image_fulltext_caption;
-
-
 ?>
 
 
@@ -55,3 +53,10 @@ $articleImageFulltextCaption = $articleImages->image_fulltext_caption;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $articleTitle; ?></title>
 <link href="templates/what/css/load.css" type="text/css" rel="stylesheet">
+
+<!-- FACEBOOK -->
+<meta property="og:url" content="<?php echo 'http://'.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI]; ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="<?php echo $articleTitle; ?>" />
+<meta property="og:description" content="<?php echo $articleMetaDesc; ?>" />
+<meta property="og:image" content="<?php echo $articleImageIntro; ?>" />

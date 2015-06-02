@@ -1,4 +1,4 @@
-$("#bapc-contact-form").submit(function() {
+$("Contact Form ID").submit(function() {
 	var date = $('#date').val();
 	var ip = $('#ip').val();
 	var first_name = $('#first_name').val();
@@ -13,7 +13,7 @@ $("#bapc-contact-form").submit(function() {
 		success: function(result){
 			console.log(result);
 			if(result === 'true'){				
-				$('#bapc-contact-form').load('templates/what/html/com_content/article/contactSubmit.php');
+				$('Contact Form ID').load('templates/what/html/com_content/article/contactSubmit.php');
 			}
 		}
 	});

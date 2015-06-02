@@ -12,7 +12,4 @@ $useDefList = ($params->get('show_modify_date') || $params->get('show_publish_da
 	|| $params->get('show_hits') || $params->get('show_category') || $params->get('show_parent_category') || $params->get('show_author'));
 ?>
 
-<h1>
-	<?php echo $this->item->title; ?>
-</h1>
 <?php echo $this->item->text; ?>

@@ -130,7 +130,7 @@ function getFileExtension(string){
 // Here's where we run the less compiler
 function compileCSS(file){
     var filename = getFilenameWithoutExtention(file);
-    var command = 'lessc -x ' + argvs[0] + '/' + argvs[2] + ' ' + argvs[1] + '/' + argvs[3];
+    var command = 'lessc ' + argvs[0] + '/' + argvs[2] + ' ' + argvs[1] + '/' + argvs[3];
 	
     // Run the command
     exec(command, function (error, stdout, stderr){

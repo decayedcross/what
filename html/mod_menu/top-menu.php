@@ -47,4 +47,4 @@ foreach ($list as $i => &$item)
 		echo '</li>';
 	}
 }
-?></ul>
+?>

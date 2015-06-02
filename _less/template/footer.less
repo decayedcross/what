@@ -1,3 +1,91 @@
 #footer{
 	.enc-width-float;
+	#bapc-footer{
+		.enc-width-float;
+		.enc-text-shadow(@black, 1, 2px, 2px, 2px);
+		
+		background-color: @darkPurple;
+		.enc-flex-auto-xs(padding-top, 3rem, 0);
+		.enc-flex-auto-sm(padding-top, 4rem, 0);
+		.enc-flex-auto-md(padding-top, 5rem, 0);
+		.enc-flex-auto-lg(padding-top, 5rem, 0);
+		
+		.enc-flex-auto-xs(padding-bottom, 3rem, 0);
+		.enc-flex-auto-sm(padding-bottom, 4rem, 0);
+		.enc-flex-auto-md(padding-bottom, 5rem, 0);
+		.enc-flex-auto-lg(padding-bottom, 5rem, 0);
+		article{
+			.enc-center-block;
+			.enc-flex-manual-all-xs(width, 80%);
+			.enc-flex-manual-all-sm(width, 70%);
+			.enc-flex-manual-all-md(width, 60%);
+			.enc-flex-manual-all-lg(width, 60%);
+			text-align: center;			
+			h6{
+				.enc-flex-auto-xs(font-size, 1.5rem, 0.3);
+				.enc-flex-auto-sm(font-size, 2.3rem, 0.3);
+				.enc-flex-auto-md(font-size, 2.5rem, 0.4);
+				.enc-flex-auto-lg(font-size, 4rem, 0.4);
+					
+				.enc-flex-auto-xs(line-height, 1.6rem, 0.3);
+				.enc-flex-auto-sm(line-height, 2.4rem, 0.3);
+				.enc-flex-auto-md(line-height, 2.6rem, 0.4);
+				.enc-flex-auto-lg(line-height, 4rem, 0.4);		
+				
+				.enc-flex-auto-xs(margin-bottom, 1rem, 0);
+				.enc-flex-auto-sm(margin-bottom, 1rem, 0);
+				.enc-flex-auto-md(margin-bottom, 2rem, 0);
+				.enc-flex-auto-lg(margin-bottom, 2rem, 0);
+				
+				color: @white !important;
+			}
+			#social{				
+				.enc-flex-auto-xs(width, 50%, 0);
+				.enc-flex-auto-sm(width, 20%, 0);
+				.enc-flex-auto-md(width, 20%, 0);
+				.enc-flex-auto-lg(width, 20%, 0);
+				display: inline-block;	
+				margin: 0 auto;				
+				li{					
+					width: 33%;
+					list-style: none;	
+					float: left;
+					a{						
+						text-decoration: none;						
+						i{
+							.enc-flex-auto(font-size, 1.5rem, .06);
+							.enc-flex-auto(line-height, 1.7rem, .06);
+							
+							color: @lightGray;	
+							background: transparent;
+							&:hover{
+								color: @white;
+							}
+						}
+					}
+				}
+			}
+			#powered{
+				.enc-width-float;
+				.enc-flex-auto-xs(margin-top, .5rem, 0);
+				.enc-flex-auto-sm(margin-top, .7rem, 0);
+				.enc-flex-auto-md(margin-top, 1rem, 0);
+				.enc-flex-auto-lg(margin-top, 1rem, 0);
+				
+				color: @lightGray;
+				li{					
+					.enc-flex-auto(font-size, .6rem, .04);
+					.enc-flex-auto(line-height, 1rem, .04);
+					list-style: none;
+					a{		
+						text-decoration: none;
+						color: @lightGray;
+						&:hover{
+							color: @white;
+						}
+					}
+				}
+			}
+		}
+	}
 }

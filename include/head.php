@@ -56,7 +56,6 @@ $globalMailFrom = $config->get('mailfrom');
 $globalSiteName = $config->get('sitename');
 ?>
 
-
 <meta charset="utf-8">
 <meta name='keywords' content='<?php echo $articleMetaKey; ?>'>
 <meta name='language' content='<?php echo $articleLanguage; ?>'>
@@ -71,8 +70,6 @@ $globalSiteName = $config->get('sitename');
 <meta name='MobileOptimized' content='240'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $articleMetaDesc; ?>">
-<title><?php echo $articleTitle; ?></title>
-<link href="templates/what/css/load.css" type="text/css" rel="stylesheet">
 
 <!-- FACEBOOK -->
 <meta property="og:url" content="<?php echo JUri::getInstance(); ?>" />
@@ -81,3 +78,6 @@ $globalSiteName = $config->get('sitename');
 <meta property="og:description" content="<?php echo $articleMetaDesc; ?>" />
 <meta property="og:image" content="<?php echo $articleImageIntro; ?>" />
 <meta property='og:site_name' content='<?php echo $globalSiteName; ?>'>
+
+<title><?php echo $articleTitle; ?></title>
+<link href="templates/what/css/load.css" type="text/css" rel="stylesheet">

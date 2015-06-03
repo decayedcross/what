@@ -16,9 +16,11 @@
 		<filename>.bowerrc</filename>
 		<folder>bower</folder>
 		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>handlers</folder>
 		<folder>html</folder>
+		<folder>js</folder>
 		<folder>_less</folder>
-		<folder>php</folder>
 		<folder>include</folder>
 	</files>
 	<positions>

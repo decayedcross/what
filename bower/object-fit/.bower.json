@@ -1,6 +1,6 @@
 {
   "name": "object-fit",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": [
     "dist/polyfill.object-fit.js",
     "dist/polyfill.object-fit.css"
@@ -12,16 +12,18 @@
     "test",
     "tests"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "closest": "1.0.2",
+    "raf.js": "0.0.4"
+  },
   "homepage": "https://github.com/anselmh/object-fit",
-  "_release": "0.4.1",
+  "_release": "0.4.2",
   "_resolution": {
     "type": "version",
-    "tag": "v0.4.1",
-    "commit": "5437a37fc517e06df7d5427eedb36914a7b5d3cf"
+    "tag": "v0.4.2",
+    "commit": "92425743f94a23249a4ada58cdd3a481f813f11a"
   },
   "_source": "git://github.com/anselmh/object-fit.git",
   "_target": "~0.4.1",
-  "_originalSource": "object-fit",
-  "_direct": true
+  "_originalSource": "object-fit"
 }

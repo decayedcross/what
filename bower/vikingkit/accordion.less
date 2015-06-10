@@ -29,22 +29,22 @@
 @accordionTitleBorderRadiusActive: 1)
 {
 	.uk-accordion-title{
-		.enc-user-select-none;
+		.enc-cursor-select-none;
 		.enc-transition(0.5s, ease);
-		.enc-background-rgb(@accordionTitleBgColor, @accordionTitleBgColorOpacity);
-		.enc-media-auto-width(font-size, @accordionTitleFontSize, @accordionTitleFontSizeRatio);
-		.enc-media-auto-width(padding-left, 7px, 0.5);
-		.enc-media-auto-width(margin-top, 7px, 0.4);
-		.enc-media-auto-width(margin-bottom, 7px, 0.4);
-		.enc-create-border(@accordionTitleBorderWidth, solid, @accordionTitleBorderColor, @accordionTitleBorderRadius);
+		.enc-background-color(@accordionTitleBgColor, @accordionTitleBgColorOpacity);
+		.enc-flex-auto(font-size, @accordionTitleFontSize, @accordionTitleFontSizeRatio);
+		.enc-flex-auto(padding-left, 7px, 0.5);
+		.enc-flex-auto(margin-top, 7px, 0.4);
+		.enc-flex-auto(margin-bottom, 7px, 0.4);
+		.enc-border(@accordionTitleBorderWidth, solid, @accordionTitleBorderColor, @accordionTitleBorderRadius);
 		.enc-text-shadow(@accordionTitleTextShadowColor, @accordionTitleTextShadowOpacity, @accordionTitleTextShadowAngle,  @accordionTitleTextShadowDistance, @accordionTitleTextShadowBlur);
 		text-align: left;
 		font-weight: bold;
 		font-family: @accordionTitleFontFamily;
 		color: @accordionTitleColor;
 		&:hover{
-			.enc-background-rgb(@accordionTitleBgColor, @accordionTitleBgColorHoverOpacity);
-			.enc-create-border(@accordionTitleBorderWidthHover, solid, @accordionTitleBorderColorHover, @accordionTitleBorderRadiusHover);
+			.enc-background-color(@accordionTitleBgColor, @accordionTitleBgColorHoverOpacity);
+			.enc-border(@accordionTitleBorderWidthHover, solid, @accordionTitleBorderColorHover, @accordionTitleBorderRadiusHover);
 			color: @accordionTitleIconColorHover;
 		}
 		&:hover span{
@@ -64,12 +64,12 @@
 		}
 	}
 	.uk-active{
-		.enc-background-rgb(@accordionTitleBgColorActive, @accordionTitleBgColorActiveOpacity);
-		.enc-create-border(@accordionTitleBorderWidthActive, solid, @accordionTitleBorderColorActive, @accordionTitleBorderRadiusActive);
+		.enc-background-color(@accordionTitleBgColorActive, @accordionTitleBgColorActiveOpacity);
+		.enc-border(@accordionTitleBorderWidthActive, solid, @accordionTitleBorderColorActive, @accordionTitleBorderRadiusActive);
 		.enc-transition(0.5s, ease);
 		color: @accordionTitleIconColorHover;
 		&:hover{
-			.enc-background-rgb(@accordionTitleBgColorActive, @accordionTitleBgColorActiveHoverOpacity);
+			.enc-background-color(@accordionTitleBgColorActive, @accordionTitleBgColorActiveHoverOpacity);
 		}
 		span{
 			color: @accordionTitleIconColorHover;

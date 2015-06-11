@@ -1,6 +1,6 @@
 {
   "name": "enclave",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "homepage": "https://github.com/antfuentes87/enclave",
   "authors": [
     "antfuentes87 <antfuentes87@gmail.com>",
@@ -17,14 +17,13 @@
     "php"
   ],
   "license": "MIT",
-  "_release": "2.2.0",
+  "_release": "2.2.1",
   "_resolution": {
     "type": "version",
-    "tag": "2.2.0",
-    "commit": "2346a29f0cfdd5dc91f3257705358d518d7c6b23"
+    "tag": "v2.2.1",
+    "commit": "9a3bc95b491c5901a8da4c750c315eed02a46071"
   },
   "_source": "git://github.com/antfuentes87/enclave.git",
   "_target": "~2.2.0",
-  "_originalSource": "antfuentes87/enclave",
-  "_direct": true
+  "_originalSource": "antfuentes87/enclave"
 }

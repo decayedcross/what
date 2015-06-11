@@ -23,7 +23,8 @@
     "tag": "2.2.0",
     "commit": "2346a29f0cfdd5dc91f3257705358d518d7c6b23"
   },
-  "_source": "git@github.com:antfuentes87/enclave.git",
-  "_target": "*",
-  "_originalSource": "git@github.com:antfuentes87/enclave.git"
+  "_source": "git://github.com/antfuentes87/enclave.git",
+  "_target": "~2.2.0",
+  "_originalSource": "antfuentes87/enclave",
+  "_direct": true
 }

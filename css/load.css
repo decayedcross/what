@@ -23,6 +23,8 @@
 #what-header #nav {
   width: 100%;
   float: left;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 @media (min-width: 240px) {
   #what-header #nav {
@@ -502,6 +504,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-size: 1rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -629,7 +632,12 @@
 #what-header #nav #large #menu ul .uk-active a {
   color: #d0d0cf;
 }
+body {
+  background-color: red;
+}
 #what-home-section-1 .uk-slidenav-position .uk-slideshow li .uk-overlay-panel .what-home-section-1-p {
+  font-size: 1rem;
+  line-height: 1rem;
   color: #ffffff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -885,6 +893,8 @@
   float: left;
 }
 #what-home-section-2 #what-home-section-2-inner #what-home-section-2-content #what-home-section-2-center .what-home-section-2-h2 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -1237,6 +1247,9 @@
     width: 33.33%;
   }
 }
+#what-home-section-2 #what-home-section-2-inner #what-home-section-2-content #what-home-section-2-center #what-home-section-2-article .what-home-section-2-figure .what-home-section-2-figure-container {
+  margin-right: 1rem;
+}
 @media (min-width: 240px) {
   #what-home-section-2 #what-home-section-2-inner #what-home-section-2-content #what-home-section-2-center #what-home-section-2-article .what-home-section-2-figure .what-home-section-2-figure-container {
     margin-right: 1rem;
@@ -1357,6 +1370,9 @@
 }
 #what-home-section-2 #what-home-section-2-inner #what-home-section-2-content #what-home-section-2-center #what-home-section-2-article .what-home-section-2-figure .what-home-section-2-figure-container .what-home-section-2-figure-caption .what-home-section-2-p {
   color: #777777;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding-top: 1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
   font-weight: 40;
@@ -1720,6 +1736,9 @@
 }
 #what-home-section-3-outer #what-home-section-3-inner #what-home-section-3-content #what-home-section-3-center .what-home-section-3-h2 {
   color: #ffffff;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-top: 1rem;
   font-family: Raleway, sans-serif;
   text-align: left;
   font-weight: 40;
@@ -2072,6 +2091,9 @@
 }
 #what-home-section-3-outer #what-home-section-3-inner #what-home-section-3-content #what-home-section-3-center .what-home-section-3-h3 {
   color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1rem;
   font-style: italic;
   font-family: Raleway, sans-serif;
   text-align: left;
@@ -2442,6 +2464,8 @@
   float: left;
 }
 #what-home-section-4-outer #what-home-section-4-inner #what-home-section-4-content #what-home-section-4-center .what-home-section-4-h2 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -2794,6 +2818,9 @@
     width: 33.33%;
   }
 }
+#what-home-section-4-outer #what-home-section-4-inner #what-home-section-4-content #what-home-section-4-center #what-home-section-4-article .what-home-section-4-paragraph-outer .what-home-section-4-paragraph-inner {
+  margin-right: 1rem;
+}
 @media (min-width: 240px) {
   #what-home-section-4-outer #what-home-section-4-inner #what-home-section-4-content #what-home-section-4-center #what-home-section-4-article .what-home-section-4-paragraph-outer .what-home-section-4-paragraph-inner {
     margin-right: 1rem;
@@ -2911,6 +2938,9 @@
 }
 #what-home-section-4-outer #what-home-section-4-inner #what-home-section-4-content #what-home-section-4-center #what-home-section-4-article .what-home-section-4-paragraph-outer .what-home-section-4-paragraph-inner .what-home-section-4-p {
   color: #777777;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding-top: 1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
   font-weight: 40;
@@ -3417,6 +3447,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1rem;
   border-radius: 100%;
 }
 @media (min-width: 240px) {
@@ -3536,6 +3567,9 @@
 }
 #what-home-section-6-outer #what-home-section-6-inner #what-home-section-6-content #what-home-section-6-center .what-home-section-6-h2 {
   color: #777777;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-top: 1rem;
   font-family: Raleway, sans-serif;
   text-align: left;
   font-weight: 40;
@@ -3888,6 +3922,9 @@
 }
 #what-home-section-6-outer #what-home-section-6-inner #what-home-section-6-content #what-home-section-6-center .what-home-section-6-h3 {
   color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 1rem;
   font-family: Raleway, sans-serif;
   text-align: left;
   font-weight: 900;
@@ -13982,6 +14019,10 @@ a.uk-datepicker-table-muted {
 .uk-dragover {
   box-shadow: 0 0 20px rgba(100, 100, 100, 0.3);
 }
+h1,
+.uk-article-title {
+  font-size: 20px;
+}
 @media (min-width: 240px) {
   h1,
   .uk-article-title {
@@ -14120,6 +14161,9 @@ a.uk-datepicker-table-muted {
     font-size: 42px;
   }
 }
+h2 {
+  font-size: 18px;
+}
 @media (min-width: 240px) {
   h2 {
     font-size: 18px;
@@ -14235,6 +14279,10 @@ a.uk-datepicker-table-muted {
     font-size: 40px;
   }
 }
+h3,
+.uk-panel-title {
+  font-size: 16px;
+}
 @media (min-width: 240px) {
   h3,
   .uk-panel-title {
@@ -14373,6 +14421,9 @@ a.uk-datepicker-table-muted {
     font-size: 38px;
   }
 }
+h4 {
+  font-size: 14px;
+}
 @media (min-width: 240px) {
   h4 {
     font-size: 14px;
@@ -14488,6 +14539,9 @@ a.uk-datepicker-table-muted {
     font-size: 36px;
   }
 }
+h5 {
+  font-size: 12px;
+}
 @media (min-width: 240px) {
   h5 {
     font-size: 12px;
@@ -14602,6 +14656,9 @@ a.uk-datepicker-table-muted {
   h5 {
     font-size: 34px;
   }
+}
+h6 {
+  font-size: 10px;
 }
 @media (min-width: 240px) {
   h6 {

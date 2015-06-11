@@ -3443,6 +3443,10 @@ body {
   width: 100%;
   float: left;
 }
+#what-home-section-6-outer #what-home-section-6-inner #what-home-section-6-content {
+  width: 100%;
+  float: left;
+}
 #what-home-section-6-outer #what-home-section-6-inner #what-home-section-6-content #what-home-section-6-center .what-home-section-6-image {
   display: block;
   margin-left: auto;
@@ -4275,6 +4279,27 @@ body {
   #what-home-section-6-outer #what-home-section-6-inner #what-home-section-6-content #what-home-section-6-center .what-home-section-6-h3 {
     padding-top: 1.66rem;
   }
+}
+#what-home-section-7-outer {
+  width: 100%;
+  float: left;
+  background-color: #1c1c1c;
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1c1c1c', endColorstr='#ff1c1c1c');
+}
+#what-home-section-7-outer:not([dummy]) {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
+#what-home-section-7-outer #what-home-section-7-inner {
+  width: 100%;
+  float: left;
+}
+#what-home-section-7-outer #what-home-section-7-inner #what-home-section-7-content {
+  width: 100%;
+  float: left;
+}
+#what-home-section-7-outer #what-home-section-7-inner #what-home-section-7-content #what-home-section-7-cover {
+  width: 100%;
 }
 /* ========================================================================
    Component: Base

@@ -49,7 +49,7 @@ $whatHomeSection_6 = array(
 
 $whatHomeSection_7 = array(
     "id" => "what-home-section-7",
-	"googleMap" => "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	"googleMap" => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.4344297928023!2d-87.807439!3d41.948003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcbafdbebbffb%3A0xa8c0c1c7af5889f!2s3742+N+Harlem+Ave%2C+Chicago%2C+IL+60634!5e0!3m2!1sen!2sus!4v1434053904781"
 );
 ?>
 
@@ -121,3 +121,12 @@ $whatHomeSection_7 = array(
 	</div>
 </section>
 
+<section <?php $html->setID($whatHomeSection_7, 'outer'); ?>>
+	<div <?php $html->setID($whatHomeSection_7, 'inner'); ?>>
+		<div <?php $html->setID($whatHomeSection_7, 'content'); ?>>
+			<div <?php $html->setID($whatHomeSection_7, 'cover'); ?>>
+				
+			</div>
+		</div>
+	</div>
+</section>

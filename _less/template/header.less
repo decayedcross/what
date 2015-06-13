@@ -4,7 +4,7 @@
 @activeColor: #d0d0cf;
 
 .what-header-nav-large-scroll{
-	.enc-background-color(@black, 0.5);
+	.enc-background-color(@black, 0.90);
 }
 
 #what-header{
@@ -12,10 +12,11 @@
 	width: 100%;
 	position: fixed;
 	z-index: 999;
+	top: 1px;
 	#nav{
 		.enc-flex-width-float;
-		.enc-flex-auto(padding-top, 2rem, 0.4);
-		.enc-flex-auto(padding-bottom, 2rem, 0.4);
+		.enc-flex-auto(padding-top, 1rem, 0.01);
+		.enc-flex-auto(padding-bottom, 1rem, 0.01);
 		#large{
 			#menu{
 				.enc-flex-col(@menuLargeWidth, @menuLargeWidth, @menuLargeWidth, @menuLargeWidth);

@@ -1,0 +1,264 @@
+.what-mixin-h2{
+	.enc-font-color(@white, 1);
+	.enc-flex-auto-fontsize-lineheight(1rem, 0.1, 1rem, 0.1);
+	.enc-flex-auto-margin-topbottom(1rem, 0.1, 1rem, 0.1);
+	font-family: Raleway, sans-serif;
+	width: 100%;
+	display: block;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.what-mixin-h3{
+	.enc-font-color(@white, 1);
+	.enc-flex-auto-fontsize-lineheight(0.5rem, 0.04, 0.5rem, 0.04);
+	.enc-flex-auto-margin-topbottom(0.01rem, 0.01, 0.01rem, 0.01);
+	font-family: Raleway, sans-serif;
+	width: 100%;
+	display: block;
+	font-weight: 500;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.what-mixin-h4{
+	.enc-font-color(@white, 1);
+	.enc-flex-auto-fontsize-lineheight(0.5rem, 0.05, 0.5rem, 0.05);
+	.enc-flex-auto-margin-topbottom(0.5rem, 0.025, 0.5rem, 0.025);
+	font-family: Raleway, sans-serif;
+	width: 100%;
+	display: block;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.what-mixin-p{
+	.enc-font-color(@sectionPColor, 1);
+	.enc-flex-auto-fontsize-lineheight(0.5rem, 0.035, 0.75rem, 0.05);
+	.enc-flex-auto-margin-topbottom(0.25rem, 0.025, 0.25rem, 0.025);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	display: block;
+	text-align: left;
+}
+
+.what-mixin-ul{
+	list-style: none;
+}
+
+.what-mixin-li{
+	.enc-font-color(@white, 1);
+	.enc-flex-auto-fontsize-lineheight(0.5rem, 0.035, 0.75rem, 0.05);
+	.enc-flex-auto-margin-topbottom(0.25rem, 0.025, 0.25rem, 0.025);
+	.enc-flex-auto(padding-left, 1rem, 0.12);
+	display: list-item;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	text-align: left;
+}
+
+.what-mixin-img{
+	width: 100%;
+	display: block;
+}
+
+.what-mixin-span-quote{
+	font-weight: 400;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #ffffff;
+	font-size: 100px;
+	line-height: 100px;
+}
+
+.what-mixin-span-name{
+	color: rgb(255, 255, 255);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 500;
+	display: block;
+	line-height: 48px;
+}
+
+.what-mixin-textarea{
+  font-weight: 300;
+  outline: none;
+  background: transparent;
+  resize: none;
+  color: #777777;
+  font-size: 16px;
+  border: 1px solid #4e4e4e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.what-mixin-submit{
+	background: transparent;
+  border-radius: 0px;
+  color: #ffffff;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.what-mixin-dl{
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 22.8571434020996px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 22px;
+	margin-top: 17px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.what-mixin-a{
+	background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-shadow: none;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: inline;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 17px;
+font-style: italic;
+font-weight: normal;
+height: auto;
+line-height: 29px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+outline-color: rgb(255, 255, 255);
+outline-style: none;
+outline-width: 0px;
+text-decoration: none;
+width: auto;
+}
+
+.what-mixin-input{
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(78, 78, 78);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(78, 78, 78);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(78, 78, 78);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(78, 78, 78);
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+color: rgb(119, 119, 119);
+cursor: auto;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+letter-spacing: normal;
+line-height: 22.8571434020996px;
+outline-color: rgb(119, 119, 119);
+outline-style: none;
+outline-width: 0px;
+text-align: start;
+text-indent: 0px;
+text-rendering: auto;
+text-shadow: none;
+text-transform: none;
+word-spacing: 0px;
+}
+
+.what-mixin-span-number{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(44, 44, 44);
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(44, 44, 44);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(44, 44, 44);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(44, 44, 44);
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	float: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: normal;
+	height: 66px;
+	line-height: 36px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-right: 33px;
+	min-width: 10px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 12px;
+	position: relative;
+	text-align: center;
+	top: 16px;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	vertical-align: baseline;
+	visibility: visible;
+	white-space: nowrap;
+	width: 66px;
+}

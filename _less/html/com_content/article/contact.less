@@ -1,1 +1,99 @@
+#what-contact-section-1-outer{
+	.enc-flex-width-float;
+	#what-contact-section-1-inner{
+		.enc-flex-width-float;
+		#what-contact-section-1-content{
+			.enc-flex-width-float;
+			#what-contact-section-1-center{
+				.what-contact-section-1-image{
+					.enc-flex-horizontal-center();
+				}
+			}
+		}
+	}
+}
 
+
+#what-contact-section-2-outer{
+	.enc-flex-width-float;
+	.enc-background-color(@sectionBgColor, 1);
+	#what-contact-section-2-inner{
+		.enc-flex-width-float;
+		#what-contact-section-2-content{
+			.enc-flex-width-float;
+			#what-contact-section-2-center{
+				.what-contact-section-2-h2{
+					.what-mixin-h2;
+				}
+				#what-contact-section-2-form{
+					.enc-flex-auto-margin-bottom(1rem, 0.01);
+					#what-contact-section-2-ul{
+						.what-mixin-ul;
+						.enc-flex-width-float;
+						.what-contact-section-2-li{
+							.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+							.what-contact-section-2-input-container{
+								input{
+									.enc-flex-auto-padding-topbottom(0.5rem, 0.05, 0.5rem, 0.05);
+									.enc-flex-auto-padding-leftright(0.1rem, 0.01, 0.1rem, 0.01);
+									.what-mixin-input;
+									width: 100%;
+									-webkit-box-sizing: border-box;
+									-moz-box-sizing: border-box;
+									box-sizing: border-box;
+								}
+							}
+							&:nth-of-type(3n+2) .what-contact-section-2-input-container{
+									.enc-flex-auto-padding-leftright(1rem, 0.1, 1rem, 0.1);
+							}
+						}
+					}
+					#what-contact-form-message{
+						.enc-flex-auto(height, 5rem, 1);
+						.enc-flex-auto-margin-top(1rem, 0.01);
+						.what-mixin-textarea;
+						width: 100%;
+						-webkit-box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						box-sizing: border-box;
+					}
+					#what-contact-form-send{
+						.enc-flex-horizontal-center();
+						.what-mixin-submit;
+						border: none;
+						&:active{
+							border: none;
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+
+#what-contact-section-3-outer{
+	.enc-flex-width-float;
+	#what-contact-section-3-inner{
+		.enc-flex-width-float;
+		#what-contact-section-3-content{
+			.enc-flex-width-float;
+			#what-contact-section-3-center{
+				.what-contact-section-3-h2{
+					.what-mixin-h2;
+				}
+				.what-contact-section-3-dl{
+					.what-mixin-dl;
+					text-align: center;
+					.what-contact-section-3-dt{
+						
+					}
+					.what-contact-section-3-dd{
+						a{
+							.what-mixin-a;
+						}
+					}
+				}
+			}
+		}
+	}
+}

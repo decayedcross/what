@@ -1,0 +1,1 @@
+<script src="templates/what/bower/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>

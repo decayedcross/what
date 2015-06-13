@@ -13,7 +13,7 @@
 	<jdoc:include type="modules" name="development" />
     	<jdoc:include type="component" />
 </main>
-<footer id="what-footer">
-	<jdoc:include type="modules" name="footer" />	
-</footer>
+
+<jdoc:include type="modules" name="footer" />	
+
 <?php require_once('_loadBody.php'); ?>

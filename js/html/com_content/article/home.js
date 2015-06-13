@@ -1,5 +1,5 @@
 $(window).on("load resize scroll",function(e){
-	encAllMinHeightsEqualElementA(window, '#what-home-section-1, #what-home-section-1-0, #what-home-section-1-1, #what-home-section-1-2');
+	encAllMinHeightsEqualElementA_Half(window, '#what-home-section-1, #what-home-section-1-0, #what-home-section-1-1, #what-home-section-1-2');
 	encAllMinHeightsEqualElementA(window, '#what-home-section-2');
 	
 	encAllMinHeightsEqualElementA_Half(window, '#what-home-section-3-paralax');
@@ -32,8 +32,7 @@ $(window).on("load resize scroll",function(e){
 	//SECTION 7
 	encAllHeightsEqualElementA_Half(window, '#what-home-section-7-outer');
 	encVerticalCenter('#what-home-section-7-outer', '#what-home-section-7-inner', '#what-home-section-7-content');
-
-	encAllHeightsEqualElementA('#what-home-section-7-outer', '#what-home-section-7-cover, #what-home-section-7-google-map');
+	encAllHeightsEqualElementA('#what-home-section-7-outer', '#what-home-section-7-cover');
 });
 
 $(document).ready(function() {

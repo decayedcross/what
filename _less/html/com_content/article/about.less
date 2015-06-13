@@ -1,1 +1,205 @@
+#what-about-section-1-outer{
+	.enc-flex-width-float;
+	#what-about-section-1-inner{
+		.enc-flex-width-float;
+		#what-about-section-1-content{
+			.enc-flex-width-float;
+			#what-about-section-1-center{
+				.what-about-section-1-image{
+					.enc-flex-horizontal-center();
+				}
+			}
+		}
+	}
+}
 
+#what-about-section-2-outer{
+	.enc-background-color(@sectionBgColor, 1);
+	.enc-flex-width-float;
+	#what-about-section-2-inner{
+		.enc-flex-width-float;
+		#what-about-section-2-content{
+			.enc-flex-width-float;
+			#what-about-section-2-center{
+				#what-about-section-2-article-left{
+					.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+					#what-about-section-2-article-left-padding{
+						.enc-flex-auto-padding-right(1rem, 0.05);
+						h2{
+							.what-mixin-h2;
+						}
+						#what-about-section-2-article-left-figure{
+							img{
+								.what-mixin-img;
+							}
+						}
+						p{
+							.what-mixin-p;
+						}
+					}
+				}
+				#what-about-section-2-article-middle{
+					.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+					#what-about-section-2-article-middle-padding{
+						.enc-flex-auto-padding-right(1rem, 0.05);
+						h2{
+							.what-mixin-h2;
+						}
+						h3{
+							.what-mixin-h3;
+						}
+						p{
+							.what-mixin-p;
+						}
+					}
+				}
+				#what-about-section-2-article-right{
+					.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+					#what-about-section-2-article-right-padding{
+						.enc-flex-auto-padding-right(1rem, 0.05);
+						h2{
+							.what-mixin-h2;
+						}
+						h3{
+							.what-mixin-h3;
+						}
+						p{
+							.what-mixin-p;
+						}
+						#what-about-section-2-article-right-ul{
+							.what-mixin-ul;
+							li{
+								.what-mixin-li;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#what-about-section-3-outer{
+	.enc-flex-width-float;
+	#what-about-section-3-inner{
+		.enc-flex-width-float;
+		#what-about-section-3-content{
+			.enc-flex-width-float;
+			.enc-flex-auto(padding-top, 0, 0);
+			.enc-flex-auto(padding-bottom, 1rem, 0.4);
+			#what-about-section-3-center{
+				h2{
+					.what-mixin-h2;
+				}
+				#what-about-section-3-ul{
+					li{
+						.enc-flex-col(25%, 25%, 25%, 25%);
+						img{
+							.enc-flex-horizontal-center();
+							border-radius: 100%;
+							max-width: 100%;
+							height: auto;
+						}
+						h3{
+							.what-mixin-h3;
+							text-align: center;
+						}
+						p{
+							.what-mixin-p;
+							.enc-font-color(@white, 1);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#what-about-section-4-outer{
+	.enc-background-color(@sectionBgColor, 1);
+	.enc-flex-width-float;
+	#what-about-section-4-inner{
+		.enc-flex-width-float;
+		#what-about-section-4-content{
+			.enc-flex-width-float;
+			#what-about-section-4-center{
+				#what-about-section-4-article-left{
+					.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+					#what-about-section-4-article-left-padding{
+						.enc-flex-auto-padding-right(1rem, 0.05);
+						h2{
+							.what-mixin-h2;
+						}
+						.what-about-section-4-container{
+							.enc-flex-width-float;
+							.what-about-section-4-left{
+								.enc-flex-col(20%, 20%, 20%, 20%);
+								span{
+									.what-mixin-span-number;
+								}
+							}
+							.what-about-section-4-right{
+								.enc-flex-col(80%, 80%, 80%, 80%);
+								h4{
+									.what-mixin-h4;
+								}
+								p{
+									.what-mixin-p;
+								}
+							}
+						}
+					}
+				}
+			}
+			#what-about-section-4-article-middle{
+				.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+				#what-about-section-4-article-middle-padding{
+					.enc-flex-auto-padding-right(1rem, 0.05);
+					h2{
+						.what-mixin-h2;
+					}
+					h4{
+						.what-mixin-h4;
+					}
+					p{
+						.what-mixin-p;
+					}
+					#what-about-section-4-ul{
+						.what-mixin-ul;
+						li{
+							.what-mixin-li;
+						}
+					}
+				}
+			}
+			#what-about-section-4-article-right{
+				.enc-flex-col(33.33%, 33.33%, 33.33%, 33.33%);
+				#what-about-section-4-article-right-padding{
+					.enc-flex-auto-padding-right(1rem, 0.05);
+					h2{
+						.what-mixin-h2;
+					}			
+					.what-about-section-4-2-container{
+						.enc-flex-width-float;
+						.what-about-section-4-2-left{
+							.enc-flex-col(15%, 15%, 15%, 15%);
+							span{
+								.what-mixin-span-quote;
+							}
+						}
+						.what-about-section-4-2-right{
+							.enc-flex-col(85%, 85%, 85%, 85%);
+							p{
+								.what-mixin-p;
+								span{
+									.what-mixin-span-name;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

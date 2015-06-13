@@ -1,11 +1,12 @@
 /*$(document).ready(function() { 
+	var windowHeight = $(window).height();
+	var windowHeightDivide = windowHeight / 2;
 	$("html").niceScroll({
-		scrollspeed: $(window).height() / 2,
-		mousescrollstep: $(window).height() / 20,
+		scrollspeed:  8,
+		mousescrollstep: 50,
 		autohidemode: "hidden",
-		enabletranslate3d: false,
+		enabletranslate3d: true,
 		smoothscroll: true,
 		zindex: "-999"
 	});
-});
-*/
+});*/

@@ -8,7 +8,7 @@ $whatHomeSection_1 = array(
     "id" => "what-home-section-1",
 	"page" => "what-home-section-1",
 	"pagePath" => "templates/what/html/com_content/article/",
-	"logoImg" => "images/what/sample.png",
+	"logoImg" => "images/what/logo.svg",
 	"logoSrc" => "Headlight Resto"
 );
 
@@ -54,7 +54,7 @@ $whatHomeSection_7 = array(
 ?>
 
 <section <?php $html->sectionID($whatHomeSection_1); ?>>
-	<div class="uk-slidenav-position" data-uk-slideshow>
+	<div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, kenburns:true, kenburns:'30s', pauseOnHover: false}">
 		<ul class="uk-slideshow">
 			<?php $html->repeat($whatHomeSection_1, 2, 'page', 'pagePath'); ?>
 		</ul>
@@ -125,7 +125,6 @@ $whatHomeSection_7 = array(
 	<div <?php $html->setID($whatHomeSection_7, 'inner'); ?>>
 		<div <?php $html->setID($whatHomeSection_7, 'content'); ?>>
 			<div <?php $html->setID($whatHomeSection_7, 'cover'); ?>>
-				
 			</div>
 		</div>
 	</div>

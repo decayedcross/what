@@ -12,9 +12,9 @@ $whatHomeSection_1_imagesAlt = array(
 );
 
 $whatHomeSection_1_paragraphs = array(
-	"Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-	"Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-	"Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+	"Only $40 For Saftey",
+	"Only $40 For Confidence",
+	"Only $40 For Value"
 );
 ?>
 <li>

@@ -1,0 +1,22 @@
+{
+  "name": "Camera",
+  "version": "0.0.0",
+  "homepage": "https://github.com/decayedcross/Camera",
+  "authors": [
+    "decayedcross <decayedcross@gmail.com>"
+  ],
+  "description": "camera slide show",
+  "main": "camera.min.js",
+  "keywords": [
+    "camera",
+    "slideshow"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

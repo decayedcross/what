@@ -4,30 +4,27 @@ defined('_JEXEC') or die;
 require_once('templates/what/bower/enclave/php/enc_HTML.php');
 $html = new enc_HTML();
 
-$whatFooterSection_1 = array(
-    "id" => "what-footer-section-1",
-	"page" => "what-footer-section-1",
-	"pagePath" => "templates/what/html/mod_custom/",
-	"paragraph" => "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, 
-	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-	ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-	ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-	velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-	"copyright" => "Piercing © 2015. Privacy policy"
+?>
+<?php
+$whatFooter = array(
+	"id" => "what-footer",
+	"copyright" => "<span>TvTown USA</span> ©2015",
+	"powered" => "Powered by",
+	"viking" => " Viking Web Development",
+	"www" => "https://www.vikingwebdevelopment.com"
 );
 ?>
-
-<footer <?php $html->setID($whatFooterSection_1, 'outer'); ?>>
-	<section <?php $html->setID($whatFooterSection_1, 'inner'); ?>>
-		<div <?php $html->setID($whatFooterSection_1, 'content'); ?>>
-				<div <?php $html->setID($whatFooterSection_1, 'center'); ?>>
-					<?php echo $html->paragraph($whatFooterSection_1, 'paragraph') ?>
-					<ul <?php $html->setID($whatFooterSection_1, 'ul'); ?>>
-						<?php $html->repeat($whatFooterSection_1, 2, 'page', 'pagePath'); ?>
-					</ul>
-					<?php echo $html->span($whatFooterSection_1, 'copyright') ?>
-				</div>
+<div <?php $html->setID($whatFooter, 'outer'); ?>>
+	<div <?php $html->setID($whatFooter, 'inner'); ?>>
+		<div <?php $html->setID($whatFooter, 'content'); ?>>
+			<div <?php $html->setID($whatFooter, 'center'); ?>>
+				<section <?php $html->setID($whatFooter, 'section'); ?>>
+					<p <?php $html->setID($whatFooter, 'p1'); ?>>
+						<?php echo $whatFooter['copyright']; ?>	
+						<?php $html->link($whatFooter, 'viking', 'www', "Powered by", "", ""); ?>
+					</p>
+				</section>
 			</div>
 		</div>
-	</section>
-</footer>
+	</div>
+</div>

@@ -3,6 +3,11 @@ $view = JRequest::getVar('view');
 $app = JFactory::getApplication()->input;
 $currentId = $app->getInt('id');
 
+
+$config = JFactory::getConfig();
+$globalSiteName = $config->get( 'sitename' );
+$globalMailFrom = $config->get( 'mailfrom' );
+
 if($view == 'category'){
 	$input = JFactory::getApplication()->input;
 	$catId = $input->getInt('id');
@@ -26,7 +31,6 @@ if($view == 'category'){
 	$catAccess = $cat->get('access');
 	
 	$catParams = json_decode($cat->get('params'));
-	echo $catParams;
 	
 	$catMetaDesc = $cat->get('metadesc');
 	$catMetaKey = $cat->get('metakey');
@@ -84,8 +88,9 @@ if($view == 'article'){
 	$articleImageFulltextAlt = $articleImages->image_fulltext_alt;
 	$articleImageFulltextCaption = $articleImages->image_fulltext_caption;
 
-	$articleUrls = $article->get('urls');
-
+	$articleUrls = json_decode($article->get('urls'));
+	$articleLinkA = $articleUrls->urla;
+	
 	$articleMetaData = json_decode($article->get('metadata'));
 	$articleMetaDataRobots = $articleMetaData->robots;
 	$articleMetaDataAuthor = $articleMetaData->author;
@@ -113,7 +118,7 @@ if($view == 'article'){
 
 	<!-- FACEBOOK -->
 	<meta property="og:url" content="<?php echo JUri::getInstance(); ?>" />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="<?php echo $view; ?>" />
 	<meta property="og:title" content="<?php echo $catTitle; ?>" />
 	<meta property="og:description" content="<?php echo $catMetaDesc; ?>" />
 	<meta property="og:image" content="<?php echo $articleImageIntro; ?>" />
@@ -127,20 +132,20 @@ if($view == 'article'){
 	<meta name='language' content='<?php echo $articleLanguage; ?>'>
 	<meta name='robots' content='<?php echo $articleMetaDataRobots; ?>'>
 	<meta name='revised' content='<?php echo $articleModified; ?>'>
-	<meta name='author' content='<?php echo $articleMetaDataAuthor; ?>'>
 	<meta name='reply-to' content='<?php echo $globalMailFrom; ?>'>
 	<meta name='pagename' content='<?php echo $articleTitle; ?>'>
 	<meta name="description" content="<?php echo $articleMetaDesc; ?>">
 
 	<!-- FACEBOOK -->
 	<meta property="og:url" content="<?php echo JUri::getInstance(); ?>" />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="<?php echo $view; ?>" />
 	<meta property="og:title" content="<?php echo $articleTitle; ?>" />
 	<meta property="og:description" content="<?php echo $articleMetaDesc; ?>" />
-	<meta property="og:image" content="<?php echo $articleImageIntro; ?>" />
+	<meta property="og:image" content="<?php echo JURI::base().$articleImageIntro; ?>" />
 	<meta property='og:site_name' content='<?php echo $globalSiteName; ?>'>
+	<meta property="article:author" content="<?php echo $articleLinkA; ?>" />
 
 	<title><?php echo $articleTitle; ?></title>
 <?php } ?>
 
-<link href="templates/what/css/load.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="templates/what/css/load.css" />

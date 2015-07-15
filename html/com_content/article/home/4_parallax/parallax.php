@@ -1,4 +1,4 @@
 <?php
-$paralaxBackground = 'images/what/home/home-parallax-2.jpg';
-return $paralaxBackground;
+$parallaxBackground = 'images/what/home/home-parallax2.jpg';
+return $parallaxBackground;
 ?>

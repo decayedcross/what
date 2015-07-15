@@ -1,20 +1,16 @@
 <?php
 $content = array(
 	0 => array(
-		"Address",
-		"5353 LaCross Dr.",
-		"Bloomington",
-		"Indiana",
-		'47404'
+		'{"icon":"icon-sword-1","h3":"Contact Form","h4":"DO NOT FEAR WHAT YOU DO NOT UNDERSTAND, I WILL HELP SHED THE LIGHT ON YOU"}'
     ),
 	1 => array(
-		"Phone",
-		"(800) 435-8420",
-		"(812) 302-3025"
+		'{"placeholder":"First Name"}',
+		'{"placeholder":"Last Name"}',
+		'{"placeholder":"Phone Number"}',
+		'{"placeholder":"Email"}'
     ),
 	2 => array(
-		"Email",
-		"contact@tvtownusa.com"
-    )
+		'{"placeholder":"Questions and/or Comments","submit":"submit"}',
+	)
 );
 ?>

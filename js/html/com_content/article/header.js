@@ -1,9 +1,15 @@
-$(window).on("load resize scroll",function(e){
-	encAddClassScrollWindowHeight_Half('.what-header-outer', 'what-header-fix', '.what-header-outer');
-	encVerticalCenter('.what-header-outer', '.what-header-inner', '.what-header-content');
-	encFlexWidthCenter('.what-header-outer', '.what-header-center', 1.2, 1.2, 1.2, 1.8);
-	var headerHeight = $('.what-header-outer').height();
-	$('#what-main').css("padding-top", headerHeight);
-	encAddClassScrollWindowHeight_Half(".what-header-brand-icon i", "logo-color", ".what-header-outer");
+jQuery(document).ready(function($) {
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav, #what-header #large #nav #menu, #what-header #large #nav #menu li, #what-header #large #nav #menu li a');
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav #social');
+	encVerticalCenter('#what-header #large #nav #social', '#what-header #large #nav #social #inner', '#what-header #large #nav #social .content');
+	jQuery(window).resize(
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav, #what-header #large #nav #menu, #what-header #large #nav #menu li, #what-header #large #nav #menu li a'),
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav #social'),
+	encVerticalCenter('#what-header #large #nav #social', '#what-header #large #nav #social #inner', '#what-header #large #nav #social .content')
+	);
+	jQuery(window).load(
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav, #what-header #large #nav #menu, #what-header #large #nav #menu li, #what-header #large #nav #menu li a'),
+	encAllHeightsEqualElementA('#what-header #large #brand', '#what-header #large #nav #social'),
+	encVerticalCenter('#what-header #large #nav #social', '#what-header #large #nav #social #inner', '#what-header #large #nav #social .content')
+	);
 });
-

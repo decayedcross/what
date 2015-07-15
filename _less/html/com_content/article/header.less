@@ -1,0 +1,185 @@
+@headerBgColor: #1f1f1f;
+@menuLinkColor: lighten(#3f3f3f, 30%);
+@socialBgColor: lighten(#2a2a2a, 5%);
+@socialLinkColor: lighten(#686868, 20%);
+@buttonColor: #2d2923;
+
+#what-header{
+	.what-box-sizing;
+	.enc-flex-width-float;
+	.enc-background-color(@headerBgColor, 1);
+	z-index: 999;
+	position: fixed;
+	#what-header-section-1-outer{
+		#what-header-section-1-inner{
+			#what-header-section-1-content{
+				#what-header-section-1-center{
+					#large{
+		.enc-flex-width-float;
+		.what-box-sizing;
+		.enc-flex-display-md-lg;
+		#brand{
+			.enc-flex-col(65%, 65%, 35%, 55%);
+			.what-box-sizing;
+			.what-mixin-margin;
+			font-weight: normal;
+			#inner{
+				.what-box-sizing;
+				.what-vertical-align(middle);
+				.enc-flex-width-float;
+				.enc-flex-auto(padding-left, 1rem, 0.01);
+				text-align: left;
+				#text{
+					.enc-font-color(@white, 1);
+					.enc-border(0.2rem, solid, @white, 0);
+					.enc-flex-auto-fontsize-lineheight(1rem, 0.05, 2rem, 0.1);
+					.enc-flex-auto-padding-leftright(1rem, 0.01, 1rem, 0.01);
+					font-family: 'evil';
+				}
+			}
+		}
+		#nav{
+			.enc-flex-col(35%, 35%, 65%, 45%);
+			.what-box-sizing;
+			#menu{
+				.enc-flex-col(75%, 75%, 75%, 75%);
+				.what-box-sizing;
+				.what-mixin-ul(none);
+				.what-mixin-padding-margin;
+				li{
+					.enc-flex-col(25%, 25%, 25%, 25%);
+					.what-box-sizing;
+					.what-mixin-padding-margin;
+					a{
+						.enc-font-color(@menuLinkColor, 1);
+						.what-vertical-align(middle);
+						.enc-flex-auto-fontsize-lineheight(1.2rem, 0.01, 0rem, 0);
+						.enc-transition(0.5s, ease-in-out);
+						text-decoration: none;
+						&:hover{
+							.enc-font-color(@white, 1);
+							font-weight: bold;
+						}
+					}
+				}
+				.what-active{
+					a{
+						.enc-font-color(@white, 1);
+						font-weight: bold;
+					}
+				}
+			}
+			#social{
+				.enc-flex-col(25%, 25%, 25%, 25%);
+				.what-box-sizing;
+				#inner{
+					.enc-flex-width-float;
+					.content{
+						.enc-flex-col(100%, 100%, 100%, 100%);
+						a{
+								.enc-background-color(@socialBgColor, 1);
+								.enc-font-color(@white, 1);
+								.enc-flex-auto-padding-leftright(0.7rem, 0.01, 0.7rem, 0.01);
+								.enc-flex-auto-padding-topbottom(0.5rem, 0.01, 0.5rem, 0.01);
+								.enc-transition(0.5s, ease-in-out);
+								text-decoration: none;
+								&:hover{
+									.enc-background-color(lighten(@socialBgColor, 15%), 1);
+									.enc-font-color(@white, 1);
+									.enc-cursor-select-none();
+								}
+						}
+					}
+				}
+
+			}
+		}
+	}
+	#small{
+		.enc-flex-width-float;
+		.enc-background-color(@headerBgColor, 1);
+		.enc-flex-display-xs-sm;
+		#top{
+			.enc-flex-width-float;
+			#brand{
+				.enc-align-boxsizing;
+				.enc-flex-col(50%, 50%, 50%, 50%);
+				.enc-align-vertical(50%);
+				.what-mixin-margin;
+				.enc-font-color(@white, 1);
+				padding-left: 5%;
+				text-align: left;
+				padding-top: 1%;
+				padding-bottom: 1%;
+				font-family: 'evil';
+				font-weight: normal;
+			}
+			#menu-icon{
+				.enc-align-boxsizing;
+				.enc-align-vertical(50%);
+				.what-mixin-margin;
+				.enc-flex-col(50%, 50%, 50%, 50%);
+				.enc-font-color(@white, 1);
+				text-align: right;
+				padding-right: 5%;
+				font-size: 3rem;
+				padding-top: 1%;
+				padding-bottom: 1%;
+				i{
+					position: relative;
+				}
+				.menu-icon-current{
+					opacity: 1;
+				}
+				.menu-icon-active{
+					opacity: 0;
+					margin-left: -53px;
+					transform: rotate(90deg);
+				}
+			}	
+		}
+		#nav{
+			.enc-flex-width-float;
+			display: none;
+			text-align: center;
+			background-image: url('http://api.ning.com/files/pCC3UkZfemazR5uhyR6lMhSmgOB6kujnZKqm-G9oG-sQSrl-vYOdAYoFxujVrb8tkbO-U50ycsYDk-ZE4jgQMnc0pwzfSV65/LightningBoltonblack5188.gif');
+			background-position: -100% -100%;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			#menu{
+				.enc-flex-width-float;
+				.what-mixin-margin;
+				list-style: none;
+				padding-bottom: 5%;
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 0;
+				li{
+					.what-mixin-margin;
+					.enc-align-boxsizing;
+					float: left;
+					width: 50%;
+					text-align: center;
+					padding: 2%;
+					a{
+						.enc-font-color(@white, 1);
+						text-decoration: none;
+						font-size: 1.5rem;
+					}
+				}
+			}
+			a{
+				.enc-font-color(@white, 1);
+				font-size: 3rem;
+				text-decoration: none;
+				i{
+					
+				}
+			}
+		}
+	}
+				}
+			}
+		}
+	}
+}

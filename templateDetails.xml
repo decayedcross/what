@@ -24,6 +24,7 @@
 		<folder>include</folder>
 	</files>
 	<positions>
+		<position>header</position>
 		<position>top-menu</position>
 		<position>logo</position>
 		<position>development</position>		

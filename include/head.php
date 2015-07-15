@@ -148,4 +148,5 @@ if($view == 'article'){
 	<title><?php echo $articleTitle; ?></title>
 <?php } ?>
 
+<link rel="stylesheet" href="https://i.icomoon.io/public/temp/2307cd874d/WizardTodayIcons/style.css">
 <link rel="stylesheet" type="text/css" href="templates/what/css/load.css" />

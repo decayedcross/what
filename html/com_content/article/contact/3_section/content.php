@@ -1,31 +1,35 @@
 <?php
 require_once('templates/what/html/com_content/article/contact/3_section/content_array.php');
 
-echo '<ul class="'.$sectionArray["id"].'-ul">';
-foreach ($content[$key] as $contentKey => $contentData){
-	if($contentKey == 0){
-		switch($contentData){
-			case "Address":
-        		$icon = 'map-marker';
-        	break;
-			case "Phone":
-				$icon = 'phone-square';
-			break;
-			case "Email":
-				$icon = 'envelope';
-			break;
-		}
-		echo '<h2 class="'.$sectionArray["id"].'-title" id="'.$sectionArray["id"].'-title-'.$key.'">';
-			echo '<a href="#" class="'.$sectionArray["id"].'-title-link">';
-				echo '<i class="fa fa-'.$icon.'"></i> '.$contentData;
-			echo '</a>';
-		echo '</h2>';
-	}else{
-		echo '<li class="'.$sectionArray["id"].'-li" >';
-			echo $contentData;
-		echo '</li>';
+if($key == 0){
+	foreach ($content[$key] as $contentKey => $contentData){
+$json = json_decode($contentData);
+}
+echo '<section id="one">';
+echo '<i class="'.$json->icon.'"></i>';
+echo '<hgroup>';
+echo '<h3>'.$json->h3.'</h3>';
+echo '<h4>'.$json->h4.'</h4>';
+echo '</hgroup>';
+echo '</section>';	
+}
+if($key == 1){	
+echo '<section id="two">';
+	foreach ($content[$key] as $contentKey => $contentData){
+		$json = json_decode($contentData);
+		echo '<div>';
+		echo '<input placeholder="'.$json->placeholder.'"></input>';
+		echo '</div>';
 	}
 }
-
-echo '</ul>';
+if($key == 2){
+	foreach ($content[$key] as $contentKey => $contentData){
+$json = json_decode($contentData);
+}
+echo '<div id="t-area">';
+echo '<textarea>'.$json->placeholder.'</textarea>';
+echo '</div>';	
+echo '<input id="submit" type="'.$json->submit.'"></input>';
+echo '</section>';		
+}
 ?>

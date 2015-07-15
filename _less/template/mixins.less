@@ -1,54 +1,223 @@
-.what-mixin-h1{
-	.enc-font-color(@green, 1);
-	.enc-flex-auto-fontsize-lineheight(1rem, 0.1, 2rem, 0.2);
-	.enc-flex-auto(padding-top, 1rem, 0.2);
-	font-family: Raleway, sans-serif;
-	width: 100%;
+/*=======================*/
+/*FOR PERCENT BAR LOADER*/
+/*=====================*/
+.what-mixin-item{
+	.what-box-sizing;
+	.enc-flex-width-float;
+	.enc-flex-auto-padding-leftright(1.5rem, 0.05, 1.5rem, 0.05);
+}
+
+.what-mixin-item-top{
+	.enc-flex-width-float;
+	.enc-flex-auto-margin-topbottom(0.5rem, 0.01, 0.1rem, 0.01);
+}
+
+.what-mixin-item-top-left{
+	.enc-flex-col(50%, 50%, 50%, 50%);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.what-mixin-item-top-right{
+	.enc-flex-col(50%, 50%, 50%, 50%);
+	text-align: right;
+}
+
+.what-mixin-item-bottom(@color){
+	.enc-flex-width-float;
+	.enc-flex-auto-margin-topbottom(0.1rem, 0.01, 0.1rem, 0.01);
+	.enc-background-color(lighten(@color, 75%), 1);
+}
+
+.what-mixin-item-bottom-bar(@color, @height){
+	.enc-background-color(lighten(@color, 10%), 1);
+	.what-mixin-padding-margin;
+	height: @height;
+	width: 0;
 	display: block;
-	font-weight: 500;
+}
+/*=======================*/
+/************************/
+/*=====================*/
+
+/*==================*/
+/*FOR UL TEXT FADER*/
+/*================*/
+.what-mixin-switch-ul{
+	.what-mixin-ul(none);
+	.enc-flex-width-float;
+	.what-mixin-padding-margin;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.what-mixin-swtich-li{
+	.enc-flex-width-float;
+	.what-mixin-padding-margin;
+	.enc-transition(2s, ease-in-out);
+	opacity: 0;
 	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 0;
+	position: absolute;
 }
 
-.what-mixin-h2{	
-	.enc-flex-auto-fontsize-lineheight(1.5rem, 0.025, 1.6rem, 0.025);
-	font-family: Raleway, sans-serif;
-	width: 100%;
-	display: block;
-	font-weight: 500;
+.what-mixin-switch-i(@color){
+	.enc-font-color(@color, 1);
+	.enc-flex-auto-fontsize-lineheight(4rem, 0.1, 6rem, 0.1);
+	.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+}
+
+.what-mixin-switch-hgroup{
+	.enc-flex-width-float;	
+}
+
+.what-mixin-switch-h5(@color){
+	.what-mixin-margin;
+	.enc-flex-width-float;
+	.enc-transition(0.5s, ease-in-out);
+	.enc-font-color(lighten(@color, 85%), 1);
+	.enc-flex-auto-margin-topbottom(0rem, 0, 1rem, 0.01);
+	.enc-flex-auto-fontsize-lineheight(1.25rem, 0.05, 1.25rem, 0.05);
+	font-family: "evil";
 	text-align: center;
-	text-transform: uppercase;
 }
 
-.what-mixin-h3{	
-	.enc-flex-auto-fontsize-lineheight(1.3rem, 0.025, 1.5rem, 0.025);
-	font-family: Raleway, sans-serif;
-	width: 100%;
-	display: block;
-	font-weight: 500;
-	text-align: left;
+.what-mixin-switch-h6(@color){
+	.what-mixin-margin;
+	.enc-transition(0.5s, ease-in-out);
+	.enc-font-color(darken(@color, 5%), 1);
+	.enc-flex-auto-margin-topbottom(0rem, 0, 1rem, 0.01);
+	.enc-flex-auto-fontsize-lineheight(1rem, 0.03, 1rem, 0.03);
+	.enc-flex-auto-padding-leftright(1%, 0.2, 1%, 0.2);
+	font-family: "wizards-magic";
+}
+/*==================*/
+/*******************/
+/*================*/
+
+/*======================*/
+/*SECTION HEADER MIXIIN*/
+/*====================*/
+.what-section-header{
+	.enc-flex-width-float;
+	text-align: center;
+	i{
+		.enc-font-color(@black, 1);
+		.enc-flex-auto-fontsize-lineheight(3rem, 0.2, 3rem, 0.2);
+		.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+		display: block !important;
+	}
+		hgroup{
+		h3{
+			.what-mixin-h3(@black);
+			font-family: "evil" !important;
+		}
+		h4{
+			.what-mixin-h4(@black);
+			font-family: "wizards-magic" !important;
+		}
+	}
+}
+/*======================*/
+/***********************/
+/*====================*/
+
+
+/*========================*/
+/*PARALLAX SECTION MIXIIN*/
+/*======================*/
+.what-mixin-parallax(@overlayColor, @overlayOpacity){
+	.enc-flex-width-float;
+	.enc-background-color-overlay(@overlayColor, @overlayOpacity);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*========================*/
+/*************************/
+/*======================*/
+
+/*===============*/
+/*HEADER MIXIINS*/
+/*=============*/
+.what-mixin-h1(@color){
+	.enc-font-color(@color, 1);
+	.enc-flex-auto-fontsize-lineheight(1.6rem, 0.25, 1.6rem, 0.25);
+	.what-mixin-margin;
+	.enc-flex-auto-padding-topbottom(.5rem, 0.02, .5rem, 0.02);
 	text-transform: uppercase;
+	text-align: center;
+	font-family: "evil";
+	font-weight: normal;
 }
 
-.what-mixin-h4{	
-	.enc-flex-auto-fontsize-lineheight(1.2rem, 0.01, 1.2rem, 0.01);
-	.enc-flex-auto-margin-topbottom(0.25rem, 0.02, 0.25rem, 0.02);
-	font-family: Raleway, sans-serif;
-	width: 100%;
-	display: block;
-	font-weight: 700;
-	text-align: left;
-	text-transform: uppercase;
+.what-mixin-h2(@color){	
+	.enc-font-color(@color, 1);
+	.enc-flex-auto-fontsize-lineheight(1.5rem, 0.15, 1.5rem, 0.15);
+	.what-mixin-margin;
+	.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+	text-align: center;
+	font-style: italic;
+	font-family: "evil";
+	text-transform: capitalize;
+	font-weight: normal;
 }
 
-.what-mixin-p{
-	.enc-flex-auto-fontsize-lineheight(1.1rem, 0.01, 1.2rem, 0.02);
-	.enc-flex-auto-margin-topbottom(0.25rem, 0.025, 0.25rem, 0.025);
-	letter-spacing: 0.01rem;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	display: block;
-	text-align: left;
+.what-mixin-h3(@color){	
+	.what-mixin-margin;
+	.enc-font-color(@color, 1);
+	.enc-flex-auto-fontsize-lineheight(1.3rem, 0.1, 1.3rem, 0.1);
+	.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+	font-family: "wizards-magic";
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+.what-mixin-h4(@color){	
+	.what-mixin-margin;
+	.enc-font-color(lighten(@color, 50%), 1);
+	.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+	.enc-flex-auto-fontsize-lineheight(1.1rem, 0.03, 1.1rem, 0.03);
+	font-family: "wizards-magic";
+	font-weight: normal;
+}
+
+.what-mixin-h5(@color){
+	.what-mixin-margin;
+	.enc-font-color(@color, 1);
+	.enc-transition(0.5s, ease-in-out);
+	.enc-flex-auto-fontsize-lineheight(1rem, 0.05, 2rem, 0.1);
+	font-family: "wizards-magic";
+	font-weight: normal;
+}
+
+.what-mixin-h6(@color){
+	.what-mixin-margin;
+	.enc-font-color(@color, 1);
+	.enc-transition(0.5s, ease-in-out);
+	.enc-flex-auto-fontsize-lineheight(1rem, 0.01, 1rem, 0.01);
+	font-family: "wizards-magic";
+	font-weight: normal;
+}
+/*===============*/
+/****************/
+/*=============*/
+
+
+.what-mixin-button(@bgColor, @color){
+	.enc-flex-auto-padding-leftright(1.5rem, 0.1, 1.5rem, 0.1);
+	.enc-flex-auto-padding-topbottom(1rem, 0.01, 1rem, 0.01);
+	.enc-background-color(@bgColor, 1);
+	.enc-flex-auto-fontsize-lineheight(1.2rem, 0.01, 0.2rem, 0.01);
+	.enc-font-color(@color, 1);
+	text-decoration: none;
+}
+
+.what-mixin-p(@color){
+	.enc-flex-width-float;
+	.what-mixin-margin;
+	.enc-font-color(lighten(@color, 50%), 1);
+	.enc-flex-auto-fontsize-lineheight(1rem, 0.01, 1rem, 0.01);
+	.enc-flex-auto-margin-topbottom(0.5rem, 0.01, 0.1rem, 0.01);	
 }
 
 .what-mixin-span{
@@ -58,13 +227,40 @@
 	display: block;
 	text-align: left;
 }
+.what-mixin-ul(@list-style){
+	list-style: @list-style;
+	.enc-flex-width-float;
+	padding: 0;
+}
 
+.what-mixin-padding(@padding: 0){
+	padding: @padding;
+}
 
+.what-mixin-margin(@margin: 0){
+	margin: @margin;
+}
 
+.what-mixin-padding-margin(@padding: 0, @margin: 0){
+	.what-mixin-padding(@padding);
+	.what-mixin-margin(@margin);
+}
 
+.what-box-sizing(@type: border-box){
+	box-sizing: @type;
+}
 
+.what-vertical-align(@type){
+	vertical-align: @type;
+	display:table-cell;
+}
 
+.what-mixin-vertical-center(@percent){
+	top: @percent;
+	position: relative;
+	transform: translateY(-@percent);
+}
 
-
-
-
+.what-mixin-text-align(@align){
+	text-align: @align;
+}

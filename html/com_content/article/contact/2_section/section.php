@@ -1,1 +1,0 @@
-<div id="what-home-section-7-map"></div>

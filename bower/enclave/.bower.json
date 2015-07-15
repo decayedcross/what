@@ -1,15 +1,14 @@
 {
   "name": "enclave",
   "homepage": "https://github.com/antfuentes87/enclave",
-  "version": "2.4.0",
-  "_release": "2.4.0",
+  "version": "2.4.4",
+  "_release": "2.4.4",
   "_resolution": {
     "type": "version",
-    "tag": "v2.4.0",
-    "commit": "57e73babbb182446e15789b70959034e19f77b3d"
+    "tag": "v2.4.4",
+    "commit": "ce3c94dcb4404a109f44c0ee4510030d11a5e3a8"
   },
   "_source": "git://github.com/antfuentes87/enclave.git",
   "_target": "~2.4.0",
-  "_originalSource": "antfuentes87/enclave",
-  "_direct": true
+  "_originalSource": "antfuentes87/enclave"
 }

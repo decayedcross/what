@@ -1,0 +1,4 @@
+<?php
+$parallaxBackground = '';
+return $parallaxBackground;
+?>

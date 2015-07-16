@@ -18,7 +18,8 @@
     "branch": "master",
     "commit": "fe8c03efcee6da766aef828ba5e3a52a938e8d8b"
   },
-  "_source": "git://github.com/antfuentes87/lesswatch.git",
+  "_source": "git@github.com:antfuentes87/lesswatch.git",
   "_target": "*",
-  "_originalSource": "antfuentes87/lesswatch"
+  "_originalSource": "git@github.com:antfuentes87/lesswatch",
+  "_direct": true
 }

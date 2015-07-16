@@ -1,1 +1,0 @@
-<script src="templates/what/bower/jquery.transit//jquery.transit.js"></script>

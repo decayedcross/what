@@ -25,7 +25,8 @@
     "branch": "master",
     "commit": "2c4b7684efa0d698e5a33b85b6e651812f0604b3"
   },
-  "_source": "git://github.com/antfuentes87/vikingfonticons.git",
+  "_source": "git@github.com:antfuentes87/vikingfonticons.git",
   "_target": "*",
-  "_originalSource": "antfuentes87/vikingfonticons"
+  "_originalSource": "git@github.com:antfuentes87/vikingfonticons",
+  "_direct": true
 }

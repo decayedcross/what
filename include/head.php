@@ -143,10 +143,13 @@ if($view == 'article'){
 	<meta property="og:description" content="<?php echo $articleMetaDesc; ?>" />
 	<meta property="og:image" content="<?php echo JURI::base().$articleImageIntro; ?>" />
 	<meta property='og:site_name' content='<?php echo $globalSiteName; ?>'>
-	<meta property="article:author" content="<?php echo $articleLinkA; ?>" />
+	<meta property="article:author" content="<?php echo $articleMetaDataAuthor; ?>" />
 
 	<title><?php echo $articleTitle; ?></title>
 <?php } ?>
 
-<link rel="stylesheet" href="https://i.icomoon.io/public/temp/2307cd874d/WizardTodayIcons/style.css">
 <link rel="stylesheet" type="text/css" href="templates/what/css/load.css" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+

@@ -1,5 +1,5 @@
 <?php
-require_once('templates/what/bower/enclave/php/enc_FLEX.php');
+require_once('templates/what/enclave/php/enc_FLEX.php');
 $flex = new enc_FLEX();
 $app = JFactory::getApplication(); // Access the Application Object
 $menu = $app->getMenu(); // Load the JMenuSite Object

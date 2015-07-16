@@ -1,6 +1,7 @@
-<!--CDN link for the latest TweenMax-->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/jquery.gsap.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/TimelineLite.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/TimelineMax.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/TweenLite.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/TweenMax.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/easing/EasePack.min.js"></script>
+<script src="templates/what/bower/gsap/src/minfied/plugins/CSSPlugin.min.js"></script>

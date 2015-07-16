@@ -1,8 +1,8 @@
-<header id="what-header">
+<header>
 	<jdoc:include type="modules" name="header" />
 </header>
 
-<main id="what-main">
+<main>
     <jdoc:include type="component" />
 </main>
 

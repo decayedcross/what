@@ -1,0 +1,92 @@
+.what-mixin-outer-padding(@padding: 1rem, @paddingRatio: 0.01){
+	.enc-padding-auto-equal-topbottom(@padding, @paddingRatio);
+}
+
+.what-mixin-heading-padding(@padding: 0.25rem, @paddingRatio: 0.01){
+	.enc-padding-auto-equal-topbottom(@padding, @paddingRatio);
+}
+
+.what-mixin-paragraph-padding(@paddingTop: 1rem, @paddingTopRatio: 0.01, @paddingBottom: 1rem, @paddingBottomRatio: 0.01){
+	.enc-padding-auto-topbottom(@paddingTop, @paddingTopRatio, @paddingBottom, @paddingBottomRatio);
+}
+
+.what-mixin-color(@color: @black){
+	.enc-color(@color, 1);
+}
+
+.what-mixin-fontsize(@endFontSize, @endLineHeight, @ratio){
+	.enc-font-auto-size-lineheight-reverse(@endFontSize, @ratio, @endLineHeight, @ratio);
+}
+
+.what-mixin-14(@color: @black, @percent: 0%, @fontsize: 0.875rem, @lineheight: 1rem, @ratio: 0.001, @textTransform: none, @text-align: left, @letter-spacing: normal){
+	.enc-align-font(@text-align);
+	.enc-color-lighten(@color, @percent, 1);
+	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
+	text-transform: @textTransform;
+	letter-spacing: @letter-spacing;
+}
+
+.what-mixin-20(@color: @black, @percent: 0%, @fontsize: 1.25rem, @lineheight: 1.35rem, @ratio: 0.01, @textTransform: none, @text-align: left, @letter-spacing: normal){
+	.enc-text-deco;
+	.enc-align-font(@text-align);
+	.enc-color-lighten(@color, @percent, 1);
+	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
+	text-transform: @textTransform;
+	letter-spacing: @letter-spacing;
+}
+
+.what-mixin-36(@color: @black, @percent: 0%, @fontsize: 2.25rem, @lineheight: 2.35rem, @ratio: 0.01, @textTransform: none, @text-align: left, @letter-spacing: normal){
+	.enc-align-font(@text-align);
+	.enc-color-lighten(@color, @percent, 1);
+	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
+	text-transform: @textTransform;
+	letter-spacing: @letter-spacing;
+}
+
+.what-mixin-72(@color: @black, @percent: 0%, @fontsize: 4.5rem, @lineheight: 4.6rem, @ratio: 0.1, @textTransform: none, @text-align: left, @letter-spacing: normal){
+	.enc-align-font(@text-align);
+	.enc-color-lighten(@color, @percent, 1);
+	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
+	text-transform: @textTransform;
+	letter-spacing: @letter-spacing;
+}
+
+.what-mixin-button-20(@color: @white, @bgColor: @yellow, @bColor: @yellow, @fontSize: 1.25rem, @fontSizeRatio: 0.01, @lineHeight: 1.35rem, @lineHeightRatio: 0.01, @paddingTB: 1rem, @paddingTBRatio: 0.01, @paddingLR: 0.5rem, @paddingLRRatio: 0.01, @hColor: @white, @hBgColor: @darkGray, @hBColor: @darkGray){
+	.enc-cursor-hand;
+	.enc-button(
+	@color, @opacity: 1,
+	@bgColor,  @bgOpacity: 1,
+	@bWidth: 0.0625rem, @bStyle: solid, @bColor, @bRadius: 0,
+	@fontSize, @fontSizeRatio, 
+	@lineHeight, @lineHeightRatio,
+	@paddingTB, @paddingTBRatio,
+	@paddingLR, @paddingLRRatio,
+	@delay: 0, @duration: 0.5s, @timing: ease-in-out,
+	@hColor, @hOpacity: 1,
+	@hBgColor, @hBgOpacity: 1,
+	@hBWidth: 0.0625rem, @hBStyle: solid, @hBColor, @hBRadius: 0, @textTransform: uppercase, @letterSpacing: 0.12rem, @fontWeight: bold);
+}
+
+.quote-slider{
+	.enc-align-horizontal;
+	width: 52.5%;						
+	float: right;
+	list-style: none;
+	.enc-margin-auto-topbottom(1rem, 0.01, 0.1rem, 0.01);
+	.indicator-item{
+		.enc-border(0.01rem, solid, @black, 1rem);
+		.enc-margin-auto-leftright(0, 0, .1rem, .01);
+		.enc-background-color-lighten(@black, 50%);	
+		.enc-align-horizontal;
+		width: .75rem;
+		height: .75rem;							
+	}
+	.active{
+		.enc-background-color(@yellow, 1);
+	}
+}
+.three-fourths-border{
+	.enc-row;
+	.enc-align-boxsizing;
+	.enc-border-all(0rem, 0.125rem, 0.125rem, 0.125rem, solid, @yellow, 0);
+}

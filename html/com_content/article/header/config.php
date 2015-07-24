@@ -1,5 +1,5 @@
 <?php
 $sectionWindowDivide = array(
-	"12"
+	"4"
 );
 ?>

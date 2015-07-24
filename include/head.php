@@ -3,7 +3,6 @@ $view = JRequest::getVar('view');
 $app = JFactory::getApplication()->input;
 $currentId = $app->getInt('id');
 
-
 $config = JFactory::getConfig();
 $globalSiteName = $config->get( 'sitename' );
 $globalMailFrom = $config->get( 'mailfrom' );
@@ -13,7 +12,7 @@ if($view == 'category'){
 	$catId = $input->getInt('id');
 	$cat = JTable::getInstance('category');
 	$catId = $cat->get('id');
-	
+
 	$catAssetId = $cat->get('asset_id');
 	$catParentId = $cat->get('parent_id');
 	$catLft = $cat->get('lft');
@@ -42,6 +41,8 @@ if($view == 'category'){
 	$catHits = $cat->get('hits');
 	$catLanguage = $cat->get('language');
 	$catVersion = $cat->get('version');
+	
+	echo $catTitle;
 }
 
 if($view == 'article'){

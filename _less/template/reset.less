@@ -1,2 +1,45 @@
+html, body, div, main, section, article, figure, figcaption, hgroup, h1, h2, h3, h4, h5, h6, p, ul, li, img, span{
+	margin: 0;
+	padding: 0;
+}
+
 html,body{	
+	font-size: 16px;
+}
+
+.pagination{
+	.enc-row;
+	ul{
+		.enc-align-horizontal-width(26%);
+		.active{				
+			a{
+				.enc-background-color-lighten(@black, 50%);
+			}
+		}
+		li{
+			.enc-display(@display: inline);
+			.enc-margin-auto-leftright(0.01rem, 0.005, 0.01rem, 0.005);	
+			.enc-cursor-hand;
+			&:hover span{
+				.enc-background-color-lighten(@black, 50%);
+			}
+				
+			span{	
+				.enc-background-color(@yellow, 1);
+				.enc-color(@white, 1);
+				.enc-padding-auto-equal-leftright(0.5rem, 0);
+				.enc-padding-auto-equal-topbottom(0.25rem, 0)
+			}
+			&:hover a{
+				.enc-background-color-lighten(@black, 50%);
+			}
+			a{
+				.enc-background-color(@yellow, 1);
+				.enc-color(@white, 1);
+				.enc-padding-auto-equal-leftright(0.5rem, 0);
+				.enc-padding-auto-equal-topbottom(0.25rem, 0);
+				.enc-text-deco;
+			}
+		}
+	}
 }

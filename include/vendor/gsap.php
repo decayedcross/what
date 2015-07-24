@@ -1,7 +1,7 @@
-<script src="templates/what/bower/gsap/src/minfied/jquery.gsap.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/TimelineLite.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/TimelineMax.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/TweenLite.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/TweenMax.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/easing/EasePack.min.js"></script>
-<script src="templates/what/bower/gsap/src/minfied/plugins/CSSPlugin.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/jquery.gsap.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/TimelineLite.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/TimelineMax.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/TweenLite.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/TweenMax.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/easing/EasePack.min.js"></script>
+<script src="templates/what/bower/gsap/src/minified/plugins/CSSPlugin.min.js"></script>

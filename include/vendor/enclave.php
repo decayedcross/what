@@ -1,1 +1,2 @@
-<script src="templates/what/bower/enclave/js/enclave.js"></script>
+<script src="templates/what/enclave/js/enclave.js"></script>
+<script src="templates/what/enclave/js/slider.js"></script>

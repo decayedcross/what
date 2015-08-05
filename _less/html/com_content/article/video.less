@@ -1,4 +1,4 @@
-#blog{
+#video{
 	h1{
 		.what-mixin-heading-padding;
 		.what-mixin-72(@color: @black, @text-align: center);
@@ -7,14 +7,65 @@
 			.what-mixin-72(@color: @black);
 		}
 	}
-	.content{
+	.lead{
 		.enc-row;
+		.inner{
+			.left{
+				time{
+					width: 50%;
+				}
+			}
+			.right{
+				.socialshares{
+					li{
+						.enc-column(25%, 25%, 25%, 10%);
+					}
+				}
+			}
+		}
+	}
+	.intro{
+		.enc-align-boxsizing;
+		.enc-column(50%, 50%, 50%, 50%);
+		.enc-padding-auto-right(1rem, 0.01);
+		.inner{
+			.left{
+				time{
+					width: 80%;
+				}
+			}
+			.right{
+				.socialshares{
+					li{
+						.enc-column(25%, 25%, 25%, 20%);
+					}
+				}
+			}
+		}
+	}
+	.intro + .intro{
+		padding-right: 0;
+		.enc-padding-auto-left(1rem, 0.01);
+	}
+	.intro + .intro + .intro{
+		padding-left: 0;
+		.enc-padding-auto-right(1rem, 0.01);
+	}
+	.intro + .intro + .intro + .intro{
+		padding-right: 0;
+		.enc-padding-auto-left(1rem, 0.01);
+	}
+	.content{
 		.what-mixin-outer-padding;
 		figure{
 			.enc-row;
 			img{
 				.enc-row;
 				height: 250px;
+			}
+			iframe{
+				width: 100%;
+				height: 350px;
 			}
 		}
 		.inner{
@@ -24,7 +75,7 @@
 				time{
 					.enc-align-horizontal;	
 					.enc-cursor-hand;
-					width: 50%;
+					width: 80%;
 					&:hover span{
 						.enc-background-color(@darkGray, 1);
 					}

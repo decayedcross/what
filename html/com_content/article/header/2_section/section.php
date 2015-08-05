@@ -5,9 +5,6 @@ $query = $h->joomlaQueryArray('menu', $col, 'menutype', 'topmenu', 'id', 'ASC', 
 
 $h->figure(0, 1);
 	require('logo.php');
-	$h->heading(0, 1, 1);
-		$h->exe('Encounter Pain Relief', 1);
-	$h->heading(1, 1, 1);
 $h->figure(1, 1);
 $h->nav(0, 1);
 	$h->ul(0, 1);

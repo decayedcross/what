@@ -1,67 +1,91 @@
 <?php
-$h = new enc_HTML();
-$h->joomlaCategoryContent('id', $this->articleArray->catid);
-$h->joomlaMenuContent('alias', $h->catAlias);
-$h->URL();
-$text = $h->articleTextExplode($this->articleArray->text);
+$h = new ENChtml();
+$css = new ENCcss();
+$joomla = new ENCjoomla();
+$string = new ENCstring();
+$url = new ENCurl();
+$sch = new ENCschema();
+
+$joomla->joomlaCategoryContent('id', $this->articleArray->catid);
+$joomla->joomlaMenuContent('alias', $joomla->catAlias);
+$url->disect();
+
+$text = $string->breakExplode($this->articleArray->text);
 $img = json_decode($this->articleArray->images);
 $metadata = json_decode($this->articleArray->metadata);
+$metakey = $string->explode($this->articleArray->metakey, ',');
 
-$h->heading(0, 1, 1);
-	$h->a(0, 1, 'index.php?option=com_content&view=category&layout=blog&id='.$h->catId.'&Itemid='.$h->menuId);
-		$h->exe($h->catTitle, 1);
-	$h->a(1, 1);
-$h->heading(1, 1, 1);
+$social = array(
+	'{"class":"fb-share-button", "data-href":"'.$url->currentURL.'", "data-layout":"button_count"}',
+	'{"class":"g-plus", "data-href":"'.$url->currentURL.'", "data-action":"share", "data-annotation":"bubble"}',
+	'{"class":"twitter-share-button", "data-url":"'.$url->currentURL.'"}'
+);
 
-$h->section(0,1, 'blog-article');
-	$h->figure(0,1);
-		$h->image($img->image_intro, $img->image_intro_alt, 1);
-	$h->figure(1,1);
-	$h->article(0,1);
-		$h->div(0, 1, 'left');
-			$h->time(0, 1);
-				$h->span(0, 1);
-					$h->exe($this->string_formatDate('d', $this->articleArray->created), 1);
-				$h->span(1, 1);
-				$h->span(0, 1);
-					$h->exe($this->string_formatDate('m.Y', $this->articleArray->created), 1);				
-				$h->span(1, 1);				
-			$h->time(1, 1);
-		$h->div(1, 1);
-		$h->div(0, 1, 'right');
-			$h->heading(0, 1, 2);				
-				$h->exe($this->articleArray->title, 1);
-			$h->heading(1, 1, 2);
-			$h->span(0, 1);
-				$h->exe('by ', 1);
-				$h->a(0, 1, $metadata->xreference);				
-					$h->exe($metadata->author, 1);
-				$h->a(1, 1);
-			$h->span(1, 1);
-			$h->ul(0, 1);
-				$h->li(0, 1);
-					$h->exe('<div class="fb-share-button" data-href="'.$h->currentURL.'" data-layout="button_count">', 1);
-					$h->div(1, 1);
-				$h->li(1, 1);
-				$h->li(0, 1);
-					$h->exe('<div class="g-plus" data-action="share" data-href="'.$h->currentURL.'" data-annotation="bubble">', 1);
-					$h->div(1, 1);
-				$h->li(1, 1);
-				$h->li(0, 1);
-					$h->exe('<a href="https://twitter.com/share" class="twitter-share-button" data-url="'.$h->currentURL.'">', 1);
-					$h->a(1, 1);
-				$h->li(1, 1);
-			$h->ul(1, 1);
-			foreach($text as $key => $value){
-				$h->paragraph(0,1);
-					$h->exe($value, 1);
-				$h->paragraph(1,1);
-			}
-		$h->div(1, 1);
-		$h->section(0,1);
-			$h->exe('<div class="fb-comments" data-href="'.$h->currentURL.'" data-numposts="5"></div>', 1);
-			$h->div(1, 1);
-		$h->section(1,1);
-	$h->article(1.1);
-$h->section(1,1);
+$h->b('section', 0, 1, $sch::blog, '{"id":"'.$joomla->catAlias.'"}');
+	$h->b('h1', 0, 1);
+		$h->b('a', 0, 1, '', '{"href":"'.$joomla->linkCategoryBlog($joomla->catId, $joomla->menuId).'"}');
+			$h->e(1, $joomla->catTitle);
+		$h->b('a', 1, 1);
+	$h->b('h1', 1, 1);
+	$h->b('article', 0, 1, $sch::blogPosting, $css::classContent);
+		$h->b('figure', 0,1, $sch::imageObject);
+			$h->b('img', 0, 1, $sch::contentUrl, '{"src":"'.$img->image_intro.'", "alt":"'.$img->image_intro_alt.'"}');
+		$h->b('figure', 1,1);
+		$h->b('section', 0, 1, '', '{"class":"inner"}');
+			$h->b('div', 0, 1, '', $css::classLeft);
+				$h->b('time', 0, 1, $sch::datePublished);
+					$h->b('span', 0, 1);
+						$h->e(1, $string->formatDate('d', $this->articleArray->created));
+					$h->b('span', 1, 1);
+					$h->b('span', 0, 1);
+						$h->e(1, $string->formatDate('m.Y', $this->articleArray->created));				
+					$h->b('span', 1, 1);				
+				$h->b('time', 1, 1);
+			$h->b('div', 1, 1);
+			$h->b('div', 0, 1, '', $css::classRight);
+				$h->b('h2', 0, 1, $sch::headline);
+					$h->e(1, $this->articleArray->title);
+				$h->b('h2', 1, 1);
+				$h->b('span', 0, 1, $sch::personAuthor);
+					$h->b('a', 0, 1, $sch::url, '{"href":"'.$metadata->xreference.'"}');
+						$h->b('span', 0, 1);
+							$h->e(1, 'by ');
+						$h->b('span', 1, 1);
+						$h->b('span', 0, 1, $sch::name);
+							$h->e(1, $metadata->author);
+						$h->b('span', 1, 1);
+					$h->b('a', 1, 1);
+				$h->b('span', 1, 1);
+				$h->b('ul', 0, 1, '', '{"class":"socialshares"}');
+					foreach($social as $socialKey => $socialValue){
+						$h->b('li', 0, 1);
+							$h->b('a', 0, 1, '', $socialValue);
+							$h->b('a', 1, 1);
+						$h->b('li', 1, 1);	
+					}
+				$h->b('ul', 1, 1);
+				$h->b('ul', 0, 1, '', '{"class":"hashtags"}');
+					foreach($metakey as $metakeyKey => $metakeyValue){
+						$h->b('li', 0, 1);
+							$h->b('a', 0, 1, '', '{"href":"https://tagboard.com/'.trim($metakeyValue).'/search"}');
+								$h->e(1, ' #'.trim($metakeyValue));
+							$h->b('a', 1, 1);
+						$h->b('li', 1, 1);
+					}
+				$h->b('ul', 1, 1);
+				$h->b('section', 0, 1, $sch::articleBody);
+					foreach($text as $textKey => $textValue){
+						$h->b('p', 0, 1);
+							$h->e(1, $textValue);
+						$h->b('p', 1, 1);
+					}
+				$h->b('section', 1, 1);
+			$h->b('div', 1, 1);
+		$h->b('section', 1, 1);
+		$h->b('section', 0, 1, '', '{"class":"comments"}');
+			$h->b('div', 0, 1, '', '{"class":"fb-comments", "data-href":"'.$url->currentURL.'", "data-numposts":"5"}');
+			$h->b('div', 1, 1);
+		$h->b('section', 1, 1);
+	$h->b('article', 1, 1);
+$h->b('section', 1, 1);
 ?>

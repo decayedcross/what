@@ -1,63 +1,85 @@
 <?php
-$this->URL();
-$socialURL = $this->baseURL.$this->joomlaArticleLink($this->catIntroArray->id, $this->catIntroArray->catid);
+$h = new ENChtml();
+$css = new ENCcss();
+$joomla = new ENCjoomla();
+$string = new ENCstring();
+$url = new ENCurl();
+$sch = new ENCschema();
 
+$joomla->joomlaCategoryContent('id', $this->catIntroArray->catid);
+$joomla->joomlaMenuContent('alias', $joomla->catAlias);
+$url->disect();
+	
+$text = $string->breakExplode($this->catIntroArray->text);
 $img = json_decode($this->catIntroArray->images);
 $metadata = json_decode($this->catIntroArray->metadata);
+$metakey = $string->explode($this->catIntroArray->metakey, ',');
 
-$this->article(0, 1, 'blog-container');
-	$this->figure(0, 1, 'top');
-		$this->a(0, 1, $this->joomlaArticleLink($this->catIntroArray->id, $this->catIntroArray->catid));
-			$this->image($img->image_intro, $img->image_intro_alt, 1);
-		$this->a(1, 1);
-	$this->figure(1, 1);
-	$this->section(0, 1, 'bottom');
-		$this->div(0, 1, 'left');
-			$this->time(0, 1);
-				$this->span(0, 1);
-					$this->exe($this->string_formatDate('d', $this->catIntroArray->created), 1);
-				$this->span(1, 1);
-				$this->span(0, 1);
-					$this->exe($this->string_formatDate('m.Y', $this->catIntroArray->created), 1);	
-				$this->span(1, 1);
-			$this->time(1, 1);
-		$this->div(1, 1);
-		$this->div(0, 1, 'right');
-			$this->heading(0, 1, 2);
-				$this->a(0, 1, $this->joomlaArticleLink($this->catIntroArray->id, $this->catIntroArray->catid));
-					$this->exe($this->catIntroArray->title, 1);
-				$this->a(1, 1);
-			$this->heading(1, 1, 2);
-			$this->span(0, 1);
-				$this->exe('by ', 1);
-				$this->a(0, 1, $metadata->xreference);				
-					$this->exe($metadata->author, 1);
-				$this->a(1, 1);
-			$this->span(1, 1);
-			$this->ul(0, 1);
-				$this->li(0, 1);
-					$this->exe('<div class="fb-share-button" data-href="'.$socialURL.'" data-layout="button_count">', 1);
-					$this->div(1, 1);
-				$this->li(1, 1);
-				$this->li(0, 1);
-					$this->exe('<div class="g-plus" data-action="share" data-href="'.$socialURL.'" data-annotation="bubble">', 1);
-					$this->div(1, 1);
-				$this->li(1, 1);
-				$this->li(0, 1);
-					$this->exe('<a href="https://twitter.com/share" class="twitter-share-button" data-url="'.$socialURL.'">', 1);
-					$this->a(1, 1);
-				$this->li(1, 1);
-			$this->ul(1, 1);
-			$this->paragraph(0, 1);
-				$this->exe($this->catIntroArray->metadesc, 1);
-			$this->paragraph(1, 1);
-			$this->a(0, 1, $this->joomlaArticleLink($this->catIntroArray->id, $this->catIntroArray->catid));
-				$this->button(0,1);
-					$this->exe('Read More', 1);
-				$this->button(1,1);
-			$this->a(1, 1);
-		$this->div(1, 1, 'article');
-	$this->section(1, 1);
-$this->article(1, 1);
+$social = array(
+	'{"class":"fb-share-button", "data-href":"'.$url->currentURL.'", "data-layout":"button_count"}',
+	'{"class":"g-plus", "data-href":"'.$url->currentURL.'", "data-action":"share", "data-annotation":"bubble"}',
+	'{"class":"twitter-share-button", "data-url":"'.$url->currentURL.'"}'
+);
+
+$h->b('article', 0, 1, $sch::blogPosting, $css::classContent);
+	$h->b('figure', 0,1, $sch::imageObject);
+		$h->b('img', 0, 1, $sch::contentUrl, '{"src":"'.$img->image_intro.'", "alt":"'.$img->image_intro_alt.'"}');
+	$h->b('figure', 1,1);
+	$h->b('section', 0, 1, '', '{"class":"inner"}');
+		$h->b('div', 0, 1, '', $css::classLeft);
+			$h->b('time', 0, 1, $sch::datePublished);
+				$h->b('span', 0, 1);
+					$h->e(1, $string->formatDate('d', $this->catIntroArray->created));
+				$h->b('span', 1, 1);
+				$h->b('span', 0, 1);
+					$h->e(1, $string->formatDate('m.Y', $this->catIntroArray->created));				
+				$h->b('span', 1, 1);				
+			$h->b('time', 1, 1);
+		$h->b('div', 1, 1);
+		$h->b('div', 0, 1, '', $css::classRight);
+			$h->b('h2', 0, 1, $sch::headline);
+				$h->b('a', 0, 1, '', '{"href":"'.$joomla->linkArticle($this->catIntroArray->id, $joomla->menuId).'"}');
+					$h->e(1, $this->catIntroArray->title);
+				$h->b('a', 1, 1);
+			$h->b('h2', 1, 1);
+			$h->b('span', 0, 1, $sch::personAuthor);
+				$h->b('a', 0, 1, $sch::url, '{"href":"'.$metadata->xreference.'"}');
+					$h->b('span', 0, 1);
+						$h->e(1, 'by ');
+					$h->b('span', 1, 1);
+					$h->b('span', 0, 1, $sch::name);
+							$h->e(1, $metadata->author);
+					$h->b('span', 1, 1);
+				$h->b('a', 1, 1);
+			$h->b('span', 1, 1);
+			$h->b('ul', 0, 1, '', '{"class":"socialshares"}');
+				foreach($social as $socialKey => $socialValue){
+					$h->b('li', 0, 1);
+						$h->b('a', 0, 1, '', $socialValue);
+						$h->b('a', 1, 1);
+					$h->b('li', 1, 1);	
+				}
+			$h->b('ul', 1, 1);
+			$h->b('ul', 0, 1, '', '{"class":"hashtags"}');
+				foreach($metakey as $metakeyKey => $metakeyValue){
+					$h->b('li', 0, 1);
+						$h->b('a', 0, 1, '', '{"href":"https://tagboard.com/'.trim($metakeyValue).'/search"}');
+							$h->e(1, ' #'.trim($metakeyValue));
+						$h->b('a', 1, 1);
+					$h->b('li', 1, 1);
+				}
+			$h->b('ul', 1, 1);
+			$h->b('section', 0, 1, $sch::description);
+				$h->b('p', 0, 1);
+					$h->e(1, $this->catIntroArray->metadesc);
+				$h->b('p', 1, 1);
+			$h->b('section', 1, 1);
+			$h->b('a', 0, 1, '', '{"href":"'.$joomla->linkArticle($this->catIntroArray->id, $joomla->menuId).'"}');
+				$h->b('button', 0, 1);
+					$h->e(1, 'Read More');
+				$h->b('button', 1, 1);				
+			$h->b('a', 1, 1);
+		$h->b('div', 1, 1);
+	$h->b('section', 1, 1);
+$h->b('article', 1, 1);
 ?>
-

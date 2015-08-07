@@ -1,8 +1,8 @@
 <?php
-require_once('templates/what/enclave/php/enc_HTML.php');
-$h = new enc_HTML();
+spl_autoload_register(function ($class) {
+    include 'templates/what/enclave/php/' . $class . '.php';
+});
 
-$h->repeat(5, 'content', 'templates/what/html/com_content/article/home/1_parallax/1_section/');
+$html = new html();
+$html->b('figure', 0, 1);
 ?>
-
-HELLOOOOOO SIR

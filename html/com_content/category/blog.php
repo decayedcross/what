@@ -1,7 +1,8 @@
 <?php
 defined('_JEXEC') or die;
 
-$h = new ENChtml();
+
+/*$h = new ENChtml();
 $css = new ENCcss();
 $joomla = new ENCjoomla();
 $string = new ENCstring();
@@ -32,5 +33,5 @@ $h->b('section', 0, 1, $sch::blog, '{"id":"'.$this->category->alias.'"}');
 			$h->e(1, $this->pagination->getPagesLinks());
 		$h->b('section', 1, 1);
 	}
-$h->b('section', 1, 1);
+$h->b('section', 1, 1);*/
 ?>

@@ -1,7 +1,10 @@
 <?php
 defined('_JEXEC') or die;
 
-$f = new enc_FLEX();
+echo 'This is a article';
+
+
+/*$f = new enc_FLEX();
 $h = new enc_HTML();
 
 $arr = array('id', 'title', 'alias', 'asset_id');
@@ -15,5 +18,5 @@ foreach($query as $key => $data){
 	}else{
 		$h->joomlaCategoryArticle($this->item, $data->alias);
 	}
-}
+}*/
 ?>

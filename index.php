@@ -16,9 +16,8 @@ define('YOUTUBE_API_KEY', 'AIzaSyAG8sGfe9sKKQ-Io0wprlkLD7iGDTETwCg');
 define('YOUTUBE_API_BASE', 'https://www.googleapis.com/youtube/v3/videos');
 define('YOUTUBE_API_PLAYLISTITEMS', 'https://www.googleapis.com/youtube/v3/playlistItems');
 define('YOUTUBE_CHANNEL', 'https://www.youtube.com/channel/');
-
-
-https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UCwNlh9ns6PMbCkcRnjzuzwA&key={YOUR_API_KEY}
+define('YOUTUBE_WATCH', 'https://www.youtube.com/watch?v=');
+define('YOUTUBE_EMBED', 'https://www.youtube.com/embed/');
 
 spl_autoload_register('WhatAutoLoader');
 
@@ -30,7 +29,9 @@ function WhatAutoLoader($className){
 use joomla\database;
 use joomla\menu;
 use joomla\router;
+use framework\html;
 
+$h = new html();
 $db = new database;
 $menu = new menu;
 $router = new router;
@@ -42,13 +43,22 @@ $router = new router;
             <?php
 			$router->head(__DIR__);
 			?>
+			<div id="fb-root"></div>
+			<script src="templates/what/js/facebook.js"></script>
+			<script src="templates/what/js/twitter.js"></script>
+			<script src="https://apis.google.com/js/platform.js"></script>
 		</head>
 		<body>
 			<?php
 			//echo JRequest::getVar('id');
 			$menu->build('topmenu', 'li', JRequest::getVar('Itemid'), 'MyId', 'MyClass');
+			$h->b('main', 0, 1);
 			$router->routerv2(JRequest::getVar('id'), ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'));
+			$h->b('main', 1, 1);
 			//$router->route(ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'), JDocumentHTML::getTitle());
 			?>
+			<script src="templates/what/bower/jquery/dist/jquery.min.js"></script>
+			<script src="templates/what/enclave/js/enclave.js"></script>
+			<script src="templates/what/js/load.js"></script>
 		</body>
 </html>

@@ -53,12 +53,14 @@ $router = new router;
 			//echo JRequest::getVar('id');
 			$menu->build('topmenu', 'li', JRequest::getVar('Itemid'), 'MyId', 'MyClass');
 			$h->b('main', 0, 1);
-			$router->routerv2(JRequest::getVar('id'), ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'));
+			$router->route(JRequest::getVar('id'), ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'));
 			$h->b('main', 1, 1);
 			//$router->route(ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'), JDocumentHTML::getTitle());
 			?>
 			<script src="templates/what/bower/jquery/dist/jquery.min.js"></script>
+			<script src="templates/what/bower/velocity/velocity.min.js"></script>
 			<script src="templates/what/enclave/js/enclave.js"></script>
+			<script src="templates/what/enclave/js/slider.js"></script>
 			<script src="templates/what/js/load.js"></script>
 		</body>
 </html>

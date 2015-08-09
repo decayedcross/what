@@ -11,7 +11,7 @@ $article->sectionContent($this->articleAlias, $this->parallaxSectionAlias);
 $string->breakExplodeVars($article->introtext);
 
 $h->b('hgroup', 0, 1);
-	$h->('h1', 0, 1);
+	$h->b('h1', 0, 1);
 		$h->e(1, $string->text_1, 1);
 	$h->b('h1', 1, 1);
 	$h->b('h2', 0, 1);

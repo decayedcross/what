@@ -25,10 +25,10 @@ $social = array(
 	'{"class":"twitter-share-button", "data-url":"'.$menu->currentLink.'"}'
 );
 
-$introtext = $article->introtext(JRequest::getVar('id'));
-$youtube->snippet($introtext[0]['introtext']);
-$youtube->contentDetails($introtext[0]['introtext']);
-$youtube->player($introtext[0]['introtext']);
+$article->introtext(JRequest::getVar('id'));
+$youtube->snippet($article->introtext);
+$youtube->contentDetails($article->introtext);
+$youtube->player($article->introtext);
 
 $h->b('section', 0, 1, '', '{"id":"'.$this->categoryAlias.'-'.JRequest::getVar('view').'"}');
 	$h->b('h1', 0, 1);

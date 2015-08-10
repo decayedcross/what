@@ -6799,6 +6799,2795 @@ footer #what-footer-section-1-outer #what-footer-section-1-inner #what-footer-se
   width: 100%;
   float: left;
 }
+#header .section-1 {
+  width: 100%;
+  float: left;
+}
+#header .section-1 .background {
+  width: 100%;
+  height: 95vh;
+}
+#header .section-1 .background figure {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  float: left;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure {
+    padding-top: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure {
+    padding-top: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure {
+    padding-top: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure {
+    padding-top: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure {
+    padding-top: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure {
+    padding-top: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure {
+    padding-top: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure {
+    padding-top: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure {
+    padding-top: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure {
+    padding-top: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure {
+    padding-top: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure {
+    padding-top: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure {
+    padding-top: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure {
+    padding-top: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure {
+    padding-top: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure {
+    padding-top: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure {
+    padding-top: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure {
+    padding-top: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure {
+    padding-top: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure {
+    padding-top: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure {
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure {
+    padding-top: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure {
+    padding-top: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure {
+    padding-bottom: 0.72rem;
+  }
+}
+#header .section-1 .background figure svg {
+  width: 10vw;
+  margin: 0 auto;
+  display: block;
+}
+#header .section-1 .background figure h1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  color: #ddaa23;
+  font-size: 0.853rem;
+  line-height: 0.978rem;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure h1 {
+    padding-top: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure h1 {
+    padding-bottom: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.853rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.854rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.855rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.856rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.857rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.858rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.859rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.86rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.861rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.862rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.863rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.864rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.865rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.866rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.867rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.868rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.869rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.87rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.871rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.872rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.873rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.874rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure h1 {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.978rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.979rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.98rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.981rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.982rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.983rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.984rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.985rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.986rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.987rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.988rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.989rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.99rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.991rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.992rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.993rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.994rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.995rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.996rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.997rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.998rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background figure h1 {
+    line-height: 0.999rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background figure h1 {
+    line-height: 1rem;
+  }
+}
+#header .section-1 .background nav {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 75%;
+  margin: 0 auto;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav {
+    padding-top: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav {
+    padding-top: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav {
+    padding-top: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav {
+    padding-top: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav {
+    padding-top: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav {
+    padding-top: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav {
+    padding-top: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav {
+    padding-top: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav {
+    padding-top: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav {
+    padding-top: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav {
+    padding-top: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav {
+    padding-top: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav {
+    padding-top: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav {
+    padding-top: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav {
+    padding-top: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav {
+    padding-top: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav {
+    padding-top: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav {
+    padding-top: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav {
+    padding-top: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav {
+    padding-top: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav {
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav {
+    padding-top: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav {
+    padding-top: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav {
+    padding-bottom: 0.72rem;
+  }
+}
+#header .section-1 .background nav ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+#header .section-1 .background nav ul li {
+  width: 16.66666666666667%;
+  float: left;
+  text-align: center;
+}
+#header .section-1 .background nav ul li a {
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.03rem;
+  line-height: 1.13rem;
+  text-transform: none;
+  letter-spacing: normal;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.03rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.04rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.05rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.07rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.08rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.09rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.11rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.13rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.14rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.15rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.16rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.17rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.18rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.19rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.21rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.22rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.23rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.24rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.13rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.14rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.15rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.16rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.17rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.18rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.19rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.21rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.22rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.23rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.24rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.26rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.27rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.28rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.29rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.3rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.31rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.32rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.33rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.34rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    line-height: 1.35rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    padding-top: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    padding-bottom: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    padding-left: 2.22rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background nav ul li a {
+    padding-right: 2.22rem;
+  }
+}
+#header .section-1 .background nav ul li a:hover {
+  background-color: #ddaa23;
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffddaa23', endColorstr='#ffddaa23');
+}
+#header .section-1 .background nav ul li a:hover:not([dummy]) {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
+#header .section-1 .background nav ul .active a {
+  background-color: #ddaa23;
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffddaa23', endColorstr='#ffddaa23');
+}
+#header .section-1 .background nav ul .active a:not([dummy]) {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
+#header .section-1 .background .content {
+  width: 75%;
+  margin: 0 auto;
+}
+#header .section-1 .background .content section {
+  width: 100%;
+  float: left;
+  padding-top: 15%;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section {
+    padding-top: 15%;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.01%;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.02%;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.03%;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.04%;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.05%;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.06%;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.07%;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.08%;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.09%;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.1%;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.11%;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.12%;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.13%;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.14%;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.15%;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.16%;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.17%;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.18%;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.19%;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.2%;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.21%;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section {
+    padding-top: 15.22%;
+  }
+}
+#header .section-1 .background .content section h2 {
+  width: 100%;
+  float: left;
+  text-align: left;
+  color: #ffffff;
+  font-size: 2.3rem;
+  line-height: 2.4rem;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.6rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 2.9rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.1rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.3rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.4rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.7rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 3.9rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4.1rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4.2rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4.3rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4.4rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section h2 {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.4rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.6rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.7rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.8rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 2.9rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.1rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.2rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.3rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.4rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.5rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.6rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.7rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.8rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 3.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.1rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.2rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.3rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.4rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.5rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section h2 {
+    line-height: 4.6rem;
+  }
+}
+#header .section-1 .background .content section a {
+  width: 100%;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+}
+#header .section-1 .background .content section a button {
+  cursor: pointer;
+  cursor: hand;
+  color: #ffffff;
+  background-color: #ddaa23;
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffddaa23', endColorstr='#ffddaa23');
+  border: 0.0625rem solid #ddaa23;
+  border-radius: 0;
+  font-size: 1.03rem;
+  line-height: 1.13rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -webkit-transition-delay: 0;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-delay: 0;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+}
+#header .section-1 .background .content section a button:not([dummy]) {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.03rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.04rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.05rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.07rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.08rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.09rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.11rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.13rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.14rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.15rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.16rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.17rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.18rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.19rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.21rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.22rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.23rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.24rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.13rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.14rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.15rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.16rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.17rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.18rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.19rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.21rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.22rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.23rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.24rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.26rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.27rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.28rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.29rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.3rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.31rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.32rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.33rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.34rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    line-height: 1.35rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    padding-top: 1.22rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    padding-bottom: 1.22rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    padding-left: 0.72rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.51rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.52rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.53rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.54rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.55rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.56rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.57rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.58rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.59rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.6rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.61rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.62rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.63rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.64rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.66rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.67rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.68rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.69rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.7rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.71rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a button {
+    padding-right: 0.72rem;
+  }
+}
+#header .section-1 .background .content section a button:hover {
+  color: #ffffff;
+  background-color: #262626;
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff262626', endColorstr='#ff262626');
+  border: 0.0625rem solid #262626;
+  border-radius: 0;
+}
+#header .section-1 .background .content section a button:hover:not([dummy]) {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
 header {
   width: 100%;
   float: left;

@@ -29,12 +29,14 @@ function WhatAutoLoader($className){
 use joomla\database;
 use joomla\menu;
 use joomla\router;
+use joomla\article;
 use framework\html;
 
 $h = new html();
-$db = new database;
-$menu = new menu;
-$router = new router;
+$db = new database();
+$menu = new menu();
+$router = new router();
+$article = new article();
 
 ?>
 <!DOCTYPE html>
@@ -50,8 +52,9 @@ $router = new router;
 		</head>
 		<body>
 			<?php
+			$article->sections(__DIR__.'/views/com_content/article/header', 'header', 'header', 'off');
 			//echo JRequest::getVar('id');
-			$menu->build('topmenu', 'li', JRequest::getVar('Itemid'), 'MyId', 'MyClass');
+			//$menu->build('topmenu', 'li', JRequest::getVar('Itemid'), 'MyId', 'MyClass');
 			$h->b('main', 0, 1);
 			$router->route(JRequest::getVar('id'), ROUTE, JRequest::getVar('option'), JRequest::getVar('view'), JRequest::getVar('layout'));
 			$h->b('main', 1, 1);

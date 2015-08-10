@@ -1,11 +1,13 @@
 <?php 
 defined('_JEXEC') or die;
 
+$config = JFactory::getConfig();
+
 /*LETS GET THE PARTY STARTED*/
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'what');
+define('DB_HOST', $config->get('host'));
+define('DB_USER', $config->get('user'));
+define('DB_PASS', $config->get('password'));
+define('DB_NAME', $config->get('db'));
 define('ENC_PATH', 'templates/what/enclave/php/');
 define('ROUTE', 'templates/what/views/');
 define('PHP_FILE_EXT', '.php');

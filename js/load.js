@@ -11,11 +11,12 @@ var hS2Svg = '#header .section-3 figure svg';
 var hS2a = '#header .section-3 nav ul li a';
 
 var homeParallax2Section2 = '#home .parallax-2 .section-2';
+var homeParallax2Section2VerticalCenter = '#home .parallax-2 .section-2 .what-section-center .vertical-center';
 var homeParallax2Section2FigureDiv = '#home .parallax-2 .section-2 .what-section-center figure div';
 var homeParallax2Section2FigureDivA = '#home .parallax-2 .section-2 .what-section-center figure div a';
 var homeParallax2Section2FigureDivFigcaption = '#home .parallax-2 .section-2 .what-section-center figure div figcaption';
 var homeParallax2Section2FigureDivFigcaptionP = '#home .parallax-2 .section-2 .what-section-center figure div figcaption p';
-var homeParallax2Section2VerticalCenter = '#home .parallax-2 .section-2 .what-section-center .vertical-center';
+
 
 var homeParallax2Section3 = '#home .parallax-2 .section-3';
 
@@ -38,13 +39,14 @@ var callback = function(){
 	var homeSection1ObjectImg = '#home .section-1 .object a div';
 	var homeSection1ObjectContent = '#home .section-1 .object .content';
 
+	var homeParallax2Section2Height = $(homeParallax2Section2).outerHeight();
 	var homeSection1ObjectImgHeight = $(homeSection1ObjectImg).outerHeight();
 	var homeSection1ObjectContentHeight = $(homeSection1ObjectContent).outerHeight();
 	var homeParallax2Section2FigureDivHeight = $(homeParallax2Section2FigureDiv).outerHeight();
 
 	$(homeParallax2Section2FigureDivFigcaptionP).css({"top":homeParallax2Section2FigureDivHeight / 4.5});
 	$(homeSection1ObjectContent).css({"top":-homeSection1ObjectImgHeight / 1.25});
-	//$(homeParallax2Section2VerticalCenter).css({"top":-homeSection1ObjectImgHeight / 1.25});
+	$(homeParallax2Section2VerticalCenter).css({"top":homeParallax2Section2Height / 4.5});
 };
 
 $('.slider').slider({
@@ -69,7 +71,7 @@ $(function() {
     $(window).scroll(function() {
 		if(windowWidth > 768){
 			var scroll = $(window).scrollTop();
-			if (scroll >= hS1Height - 100){
+			if (scroll >= 200){
 				TweenLite.to($(hS), 1, {visibility: "visible", ease: SlowMo.ease.config(0.7, 0.7, false)});
 				TweenLite.to($(hS1), 1, {visibility: "hidden", ease: SlowMo.ease.config(0.7, 0.7, false)});
 				TweenLite.to($(hS2), 1, {visibility: "visible", ease: SlowMo.ease.config(0.7, 0.7, false)});

@@ -7522,7 +7522,7 @@ footer #what-footer-section-1-outer #what-footer-section-1-inner #what-footer-se
 #header .section-1 .background nav {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
 }
 @media (min-width: 240px) {
@@ -8485,7 +8485,7 @@ footer #what-footer-section-1-outer #what-footer-section-1-inner #what-footer-se
   filter: progid:DXImageTransform.Microsoft.gradient(enabled='false');
 }
 #header .section-1 .background .content {
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
 }
 #header .section-1 .background .content section {
@@ -8617,6 +8617,8 @@ footer #what-footer-section-1-outer #what-footer-section-1-inner #what-footer-se
   line-height: 2.4rem;
   text-transform: none;
   letter-spacing: normal;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 @media (min-width: 240px) {
@@ -8849,11 +8851,473 @@ footer #what-footer-section-1-outer #what-footer-section-1-inner #what-footer-se
     line-height: 4.6rem;
   }
 }
+@media (min-width: 240px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section h2 {
+    padding-top: 1.22rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section h2 {
+    padding-bottom: 1.22rem;
+  }
+}
 #header .section-1 .background .content section a {
   width: 100%;
   float: left;
   text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a {
+    padding-top: 1.22rem;
+  }
+}
+@media (min-width: 240px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 320px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.01rem;
+  }
+}
+@media (min-width: 360px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.02rem;
+  }
+}
+@media (min-width: 480px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.03rem;
+  }
+}
+@media (min-width: 533px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.04rem;
+  }
+}
+@media (min-width: 568px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.05rem;
+  }
+}
+@media (min-width: 600px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.06rem;
+  }
+}
+@media (min-width: 640px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.07rem;
+  }
+}
+@media (min-width: 768px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.08rem;
+  }
+}
+@media (min-width: 800px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.09rem;
+  }
+}
+@media (min-width: 853px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.11rem;
+  }
+}
+@media (min-width: 966px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.12rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.13rem;
+  }
+}
+@media (min-width: 1050px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.14rem;
+  }
+}
+@media (min-width: 1080px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.15rem;
+  }
+}
+@media (min-width: 1200px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.16rem;
+  }
+}
+@media (min-width: 1280px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.17rem;
+  }
+}
+@media (min-width: 1366px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.18rem;
+  }
+}
+@media (min-width: 1440px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.19rem;
+  }
+}
+@media (min-width: 1600px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.2rem;
+  }
+}
+@media (min-width: 1680px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.21rem;
+  }
+}
+@media (min-width: 1920px) {
+  #header .section-1 .background .content section a {
+    padding-bottom: 1.22rem;
+  }
 }
 #header .section-1 .background .content section a button {
   cursor: pointer;
@@ -14241,7 +14705,7 @@ header #header-s2-out #header-s2-inn #header-s2-con #header-s2-cen nav ul li a {
   transition-timing-function: ease-in-out;
   width: 100%;
   float: left;
-  height: 173px;
+  height: 200px;
   background-size: cover;
   background-position: center;
 }

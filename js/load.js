@@ -11,12 +11,16 @@ var callback = function(){
 	ENC.height.EqualElement_Tallest('#about .section-4 .what-section-center ul li section article');
 	ENC.height.EqualElement_Tallest('#about .section-4 .what-section-center ul li section article p');
 	ENC.height.EqualElement_Tallest('#about .section-4 .what-section-center ul li section a button');
+	ENC.height.EqualElement_Tallest('#about .section-3 .what-section-center ul li article p');
+	ENC.height.EqualElement_Tallest('#about .section-3 .what-section-center ul li article h2');
 	ENC.width.EqualElementA('.slider', '.slider .slides li');
+	ENC.height.EqualElementA_Divided(window, '#about .parallax-1 .section-2', 2);
+
 };
 
 $('.slider').slider({
 	indicators: true,
-	height: "20vh",
+	height: $(window).outerHeight() / 3.75,
 	transition: 500,
 	interval: 6000
 });

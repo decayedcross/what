@@ -37,6 +37,11 @@
 		.section-2{
 			.enc-row;
 			.what-section-center{
+				position: relative;
+				top: 25%;
+				-webkit-transform: translateY(-25%);
+				-ms-transform: translateY(-25%);
+				transform: translateY(-25%);
 				hgroup{
 					.enc-row;
 					h1{
@@ -67,8 +72,8 @@
 				li{
 					.enc-align-boxsizing;
 					.enc-column(50%, 25%, 25%, 25%);
-					.enc-padding-auto-equal-leftright(1rem, 0.01);
-					.enc-padding-auto-equal-topbottom(1rem, 0.01);
+					.enc-padding-auto-equal-leftright(0.5rem, 0.01);
+					.enc-padding-auto-equal-topbottom(0.5rem, 0.01);
 					figure{
 						.enc-row;
 						img{
@@ -80,8 +85,9 @@
 						h2{
 							.enc-row;
 							.enc-align-boxsizing;
-							.what-mixin-heading-padding(@padding: 1rem);
 							.what-mixin-20(@yellow, @text-align: center);
+							.enc-padding-auto-equal-leftright(2rem, 0.01);
+							.enc-padding-auto-equal-topbottom(0.5rem, 0.01);
 						}
 						p{
 							.enc-row;
@@ -97,6 +103,7 @@
 	}
 	.section-4{
 		.enc-row;
+		.enc-padding-auto-equal-topbottom(1rem, 0.01);
 		.what-section-center{
 			h1{
 				.enc-row;
@@ -154,14 +161,18 @@
 	}
 	.section-5{
 		.enc-row;
+		.enc-background-color(@darkGray, 1);
+		.enc-padding-auto-equal-topbottom(1rem, 0.01);
 		.what-section-center{
 			h1{
 				.what-mixin-72(@white, @text-align: center);	
 			}
 			.slider{ 
 				.enc-row;
+				.enc-background-color(@darkGray, 1);
 				.slides{
 					.enc-row;
+					.enc-background-color(@darkGray, 1);
 					list-style: none;
 					li{
 						img{
@@ -185,30 +196,19 @@
 					}
 				}
 				.indicators{
-					//.quote-slider;
-					width: 100%;
-					float: left;
+					.enc-background-color(@darkGray, 1);
+					.indicator-item{
+						.enc-border(0.01rem, solid, @black, 1rem);
+						.enc-background-color-lighten(@black, 50%);
+						.enc-margin-auto-equal-leftright(0.1rem, 0.01);
+						width: 1rem;
+						height: 1rem;							
+					}
+					.active{
+						.enc-background-color(@yellow, 1);
+					}
 				}
 			}
 		}
-	}
-}
-
-.quote-slider{
-	.enc-align-horizontal;
-	width: 52.5%;						
-	float: right;
-	list-style: none;
-	.enc-margin-auto-topbottom(1rem, 0.01, 0.1rem, 0.01);
-	.indicator-item{
-		.enc-border(0.01rem, solid, @black, 1rem);
-		.enc-margin-auto-leftright(0, 0, .1rem, .01);
-		.enc-background-color-lighten(@black, 50%);	
-		.enc-align-horizontal;
-		width: .75rem;
-		height: .75rem;							
-	}
-	.active{
-		.enc-background-color(@yellow, 1);
 	}
 }

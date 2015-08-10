@@ -60,11 +60,16 @@ class enc_FLEX{
 			if($sectionValue <> 'config.php'){
 				list($sectionId, $sectionType) = explode('_', $sectionValue);
 				if($sectionType == 'section'){
-					echo '<script>';
-						echo '$(window).on("load resize scroll",function(e){';
-						echo 'encAllMinHeightsEqualElementA_Divided(window, "#what-'.$sectionName.'-section-'.$sectionId.'-outer", '.$sectionWindowDivide[$var].');';
-						echo 'encVerticalCenter("#what-'.$sectionName.'-section-'.$sectionId.'-outer", "#what-'.$sectionName.'-section-'.$sectionId.'-inner", "#what-'.$sectionName.'-section-'.$sectionId.'-content");';
-						echo '});';
+					echo '<script>';						
+						echo 'var callback = function () {';
+						echo 'ENC.minHeight.EqualElementA_Divided(window,"#what-'.$sectionName.'-section-'.$sectionId.'-outer", '.$sectionWindowDivide[$var].');';
+						echo 'ENC.align.verticalCenter("#what-'.$sectionName.'-section-'.$sectionId.'-outer", "#what-'.$sectionName.'-section-'.$sectionId.'-inner", "#what-'.$sectionName.'-section-'.$sectionId.'-content");';
+						echo '};';
+
+						echo '$(document).ready(callback);';
+						echo '$(window).load(callback);';
+						echo '$(window).scroll(callback);';
+						echo '$(window).resize(callback);';
 					echo '</script>';
 					$var = $var + 1;
 				}
@@ -73,11 +78,16 @@ class enc_FLEX{
 					foreach ($parallaxArray as &$parallaxValue){
 						if($parallaxValue <> 'parallax.php'){
 							list($parallaxId, $parallaxType) = explode('_', $parallaxValue);
-							echo '<script>';
-								echo '$(window).on("load resize scroll",function(e){';
-								echo 'encAllMinHeightsEqualElementA_Divided(window, "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-outer", '.$sectionWindowDivide[$var].');';
-								echo 'encVerticalCenter("#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-outer", "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-inner", "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-content");';
-								echo '});';
+							echo '<script>';							
+							echo 'var callback = function () {';
+							echo 'ENC.minHeight.EqualElementA_Divided(window, "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-outer", '.$sectionWindowDivide[$var].');';
+							echo 'ENC.align.verticalCenter("#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-outer", "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-inner", "#what-'.$sectionName.'-section-'.$sectionId.'-parallax-'.$parallaxId.'-content");';
+							echo '};';
+
+							echo '$(document).ready(callback);';
+							echo '$(window).load(callback);';
+							echo '$(window).scroll(callback);';
+							echo '$(window).resize(callback);';
 							echo '</script>';
 							$var = $var + 1;
 						}

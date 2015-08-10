@@ -62,8 +62,18 @@ $article = new article();
 			?>
 			<script src="templates/what/bower/jquery/dist/jquery.min.js"></script>
 			<script src="templates/what/bower/velocity/velocity.min.js"></script>
+
 			<script src="templates/what/enclave/js/enclave.js"></script>
 			<script src="templates/what/enclave/js/slider.js"></script>
+
+			<script src="templates/what/bower/gsap/src/minified/jquery.gsap.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/TimelineLite.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/TimelineMax.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/TweenLite.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/TweenMax.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/easing/EasePack.min.js"></script>
+			<script src="templates/what/bower/gsap/src/minified/plugins/CSSPlugin.min.js"></script>
+
 			<script src="templates/what/js/load.js"></script>
 		</body>
 </html>

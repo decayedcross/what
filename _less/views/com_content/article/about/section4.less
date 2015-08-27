@@ -1,0 +1,43 @@
+#about{
+	#section-4{		
+		.row{
+			text-align: center;
+			.what-mixin-outer-padding(@padding: 1rem, @paddingRatio: 0.01);
+			h1{
+				.what-mixin-72;
+				.what-mixin-heading-padding(@padding: 0.25rem, @paddingRatio: 0.01);
+			}
+			ul{
+				list-style: none;
+				li{
+					padding-left: 1rem;
+					padding-right: 1rem;
+					padding-bottom: 1rem;
+					section{
+						.enc-border(0.125rem, solid, @yellow, 0rem);
+						figure{
+							.what-mixin-outer-padding(@padding: .5rem, @paddingRatio: 0.01);
+							i{
+								.what-mixin-72(@color: @yellow);
+							}
+						}
+						h2{
+							.what-mixin-outer-padding(@padding: .5rem, @paddingRatio: 0.01);
+							.enc-padding-auto-equal-leftright(@padding: 1rem, @paddingRatio: 0.01);
+						}
+						p{
+							.what-mixin-outer-padding(@padding: .5rem, @paddingRatio: 0.01);
+							.enc-padding-auto-equal-leftright(@padding: 1rem, @paddingRatio: 0.01);
+							.what-mixin-14(@color: @textGray);
+						}
+						a{						
+							button{
+								.what-mixin-button-20(@color: @white, @bgColor: @yellow, @bColor: @yellow, @hColor: @white, @hBgColor: @darkGray, @hBColor: @darkGray);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

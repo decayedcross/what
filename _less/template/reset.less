@@ -1,42 +1,45 @@
-html, body, div, main, section, article, figure, figcaption, hgroup, h1, h2, h3, h4, h5, h6, p, ul, li, img, span, iframe{
+*{
+	.enc-align-boxsizing;
+}
+
+html, body, div, main, section, article, figure, figcaption, hgroup, h1, h2, h3, h4, h5, h6, p, ul, li, img, span, iframe, form, fieldset, button, i{
 	margin: 0;
 	padding: 0;
 }
 
-html,body{	
+html,body{
 	font-size: 16px;
 }
 
-.pagination{
-	.enc-row;
-	text-align: center;
-	.active{				
-		a{
-			.enc-background-color-lighten(@black, 50%);
-		}
-	}
-	li{
-		.enc-display(@display: inline);
-		.enc-margin-auto-leftright(0.01rem, 0.005, 0.01rem, 0.005);	
+fieldset{
+    display: block;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+    border: 0px groove threedface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+}
+
+button{
+	background-color: transparent;
+	border: none;
+	&:hover{
 		.enc-cursor-hand;
-		&:hover span{
-			.enc-background-color-lighten(@black, 50%);
-		}
-		&:hover a{
-			.enc-background-color-lighten(@black, 50%);
-		}		
-		span{	
-			.enc-background-color(@yellow, 1);
-			.enc-color(@white, 1);
-			.enc-padding-auto-equal-leftright(0.5rem, 0);
-			.enc-padding-auto-equal-topbottom(0.25rem, 0);
-		}
-		a{
-			.enc-background-color(@yellow, 1);
-			.enc-color(@white, 1);
-			.enc-padding-auto-equal-leftright(0.5rem, 0);
-			.enc-padding-auto-equal-topbottom(0.25rem, 0);
-			.enc-text-deco;
-		}
 	}
+}
+
+a{
+	.enc-text-deco;
+}
+
+ul{
+	list-style: none;
 }

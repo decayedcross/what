@@ -1,0 +1,29 @@
+@bgColor: #4d9cd8;
+
+.what-mixin-global-center{
+	.enc-flex-auto(width, 90%, -2);
+	margin: 0 auto;
+	display: block;
+}
+
+#header, #about, #home, #contact, #footer{
+	.enc-row;
+}
+
+#home{
+	#parallax-1{
+		.enc-row;
+		.enc-background-parallax(@opacity: 0);
+	}
+}
+
+#about{
+	#parallax-1{
+		.enc-row;
+		.enc-background-parallax(cover, center, fixed, @black, 0.5);
+	}
+}
+
+#footer{
+	.enc-background-color(@lightBlack, 1);
+}

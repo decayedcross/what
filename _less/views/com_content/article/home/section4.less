@@ -1,0 +1,108 @@
+#home{
+	#section-4{
+		.row{
+			text-align: center;
+			figure{
+				.enc-background-color-overlay(@black, 0.6);
+				.enc-transition-all(0s, 0.5s, ease-in-out);
+				.enc-cursor-hand-select;
+				background-position: center;
+				background-size: cover;
+				border-width: 0;
+				border-color: @yellow;
+				border-style: solid;
+				&:hover{
+					.enc-background-color-overlay(@black, 0.8);
+					border-width: 0.25rem;
+				}
+				&:hover p{
+					opacity: 1;
+				}
+				article{
+					h1{
+						padding-top: 1rem;
+						padding-bottom: 1rem;
+						a{
+							.what-mixin-36(@color: @yellow);
+						}
+					}
+					p{
+						.enc-transition-all(0s, 0.5s, ease-in-out);
+						.what-mixin-14(@color: @white);
+						opacity: 0;
+						padding-top: 1rem;
+						padding-bottom: 1rem;
+					}
+					a{
+						display: block;
+						button{
+							.what-mixin-button-20;
+							padding-top: 1rem;
+							padding-bottom: 1rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*#home{
+	#section-4{
+		figure{			
+			.enc-background-color-overlay(@black, 0.7);
+			.enc-transition-all(0s, 0.5s, ease-in-out);
+			.enc-cursor-hand-select;
+			.enc-align-boxsizing;
+			.enc-border(0rem, solid, @yellow, 0rem);
+			.what-mixin-display-flex(@height: 75vh);
+			float: left;
+			background-position: center;
+			background-size: cover;			
+			&:hover{
+				.enc-background-color-overlay(@white, 0.6);
+				.enc-border(0.25rem, solid, @yellow, 0rem);
+			}
+			&:hover h1 a{
+				.enc-color(@black, 1);
+			}
+			&:hover p{
+				.enc-color(@black, 1);
+			}
+			&:hover a button{
+				.enc-background-color(@darkGray, 1);
+				.enc-border(1px, solid, @black, 0px);
+			}
+			article{
+				.enc-padding-auto-equal-leftright(1rem, 0.05);
+				.enc-align-boxsizing;
+				.what-mixin-flex-align;
+				overflow: hidden;
+				h1{
+					.enc-padding-auto-equal-topbottom(1rem, 0.01);						
+					a{
+						.enc-transition-all(0s, 0.5s, ease-in-out);
+						.what-mixin-36(@color: @yellow, @text-align: center);
+						.enc-text-deco;
+					}
+				}
+				p{
+					.what-mixin-14(@color: @yellow, @text-align: center);
+					.enc-padding-auto-equal-topbottom(1rem, 0.01);
+					.enc-transition-all(0s, 0.5s, ease-in-out);
+				}
+				a{
+					.enc-padding-auto-equal-topbottom(1rem, 0.01);
+					.enc-transition-all(0s, 0.5s, ease-in-out);
+					.enc-text-deco;
+					display: block;
+					button{
+						.what-mixin-button-20;
+						display: block;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+}*/

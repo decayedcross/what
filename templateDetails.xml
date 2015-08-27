@@ -27,7 +27,8 @@
 		<position>header</position>
 		<position>top-menu</position>
 		<position>logo</position>
-		<position>development</position>		
+		<position>development</position>
 		<position>footer</position>
+		<position>footer-menu</position>
 	</positions>
 </extension>

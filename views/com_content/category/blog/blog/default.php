@@ -12,8 +12,8 @@ $pagination = new pagination();
 $category->deploy(
 JRequest::getVar('id'), 
 JRequest::getVar('Itemid'), 
-2, 
-__DIR__.'\item', 
+4, 
+__DIR__.'/item', 
 $this->categoryAlias, 
 JRequest::getVar('view'), 
 $this->categoryTitle,

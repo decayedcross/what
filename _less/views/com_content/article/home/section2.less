@@ -1,0 +1,54 @@
+#home{
+	#section-2{
+		.row{
+			text-align: center;
+			figure{
+				.enc-background-color-overlay(@black, 0.7);
+				.enc-transition-all(0s, 0.5s, ease-in-out);
+				border-bottom-color: @yellow;
+				border-bottom-style: solid;
+				border-bottom-width: 0.5rem;
+				border-top-color: @yellow;
+				border-top-style: solid;
+				border-top-width: 0rem;
+				background-size: cover;
+				background-position: center;
+				@media (min-width: 769px) {
+					&:hover{
+						.enc-background-color-overlay(@black, 0.1);
+						border-bottom-width: 0rem;
+						border-top-width: 0.5rem;
+					}
+					&:hover h2{
+						opacity: 0;
+						height: 0;
+						width: 0;
+						font-size: 0;
+					}
+					&:hover i{
+						color: @yellow;
+						margin-top: -40%;
+					}
+				}
+				a{
+					figcaption{
+						h2{
+							.what-mixin-20(@color: @white, @text-align: center);
+							.enc-transition-all(0s, 0.5s, ease-in-out);
+							width: auto;
+							height: auto;
+							opacity: 1;
+							overflow: hidden;
+						}
+						button{
+							i{
+								.what-mixin-72(@color: @red);
+								.enc-transition-all(0s, 0.5s, ease-in-out);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

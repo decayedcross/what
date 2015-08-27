@@ -1,3 +1,11 @@
+.what-mixin-fixed(@width: 100%){
+	width: 100%;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	position: fixed;
+	z-index: 999;
+}
+
 .what-mixin-ul{
 	list-style: none;
 }
@@ -20,6 +28,17 @@
 
 .what-mixin-color(@color: @black){
 	.enc-color(@color, 1);
+}			
+
+/*FLEX*/////*NEEDS TO BE ADDED TO ENCLAVE*/
+.what-mixin-display-flex(@height: 60vh){
+	display: flex;
+	min-height: @height;			
+	align-items: center;
+	justify-content: center;
+}
+.what-mixin-flex-align{
+	align-self: center;
 }
 
 /*FONT SIZES*/
@@ -27,8 +46,7 @@
 	.enc-font-auto-size-lineheight-reverse(@endFontSize, @ratio, @endLineHeight, @ratio);
 }
 
-.what-mixin-14(@color: @black, @percent: 0%, @fontsize: 0.875rem, @lineheight: 1rem, @ratio: 0.001, @textTransform: none, @text-align: left, @letter-spacing: normal){
-	.enc-align-font(@text-align);
+.what-mixin-14(@color: @black, @percent: 0%, @fontsize: 1rem, @lineheight: 1.12rem, @ratio: 0.001, @textTransform: none, @text-align: left, @letter-spacing: normal){
 	.enc-color-lighten(@color, @percent, 1);
 	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
 	text-transform: @textTransform;
@@ -37,7 +55,6 @@
 
 .what-mixin-20(@color: @black, @percent: 0%, @fontsize: 1.25rem, @lineheight: 1.35rem, @ratio: 0.01, @textTransform: none, @text-align: left, @letter-spacing: normal){
 	.enc-text-deco;
-	.enc-align-font(@text-align);
 	.enc-color-lighten(@color, @percent, 1);
 	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
 	text-transform: @textTransform;
@@ -45,7 +62,6 @@
 }
 
 .what-mixin-36(@color: @black, @percent: 0%, @fontsize: 2.25rem, @lineheight: 2.35rem, @ratio: 0.01, @textTransform: none, @text-align: left, @letter-spacing: normal){
-	.enc-align-font(@text-align);
 	.enc-color-lighten(@color, @percent, 1);
 	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
 	text-transform: @textTransform;
@@ -53,7 +69,6 @@
 }
 
 .what-mixin-72(@color: @black, @percent: 0%, @fontsize: 4.5rem, @lineheight: 4.6rem, @ratio: 0.1, @textTransform: none, @text-align: left, @letter-spacing: normal){
-	.enc-align-font(@text-align);
 	.enc-color-lighten(@color, @percent, 1);
 	.what-mixin-fontsize(@fontsize, @lineheight, @ratio);
 	text-transform: @textTransform;
@@ -61,6 +76,22 @@
 }
 
 .what-mixin-button-20(@color: @white, @bgColor: @yellow, @bColor: @yellow, @fontSize: 1.25rem, @fontSizeRatio: 0.01, @lineHeight: 1.35rem, @lineHeightRatio: 0.01, @paddingTB: 1rem, @paddingTBRatio: 0.01, @paddingLR: 0.5rem, @paddingLRRatio: 0.01, @hColor: @white, @hBgColor: @darkGray, @hBColor: @darkGray){
+	.enc-cursor-hand;
+	.enc-button(
+	@color, @opacity: 1,
+	@bgColor,  @bgOpacity: 1,
+	@bWidth: 0.0625rem, @bStyle: solid, @bColor, @bRadius: 0,
+	@fontSize, @fontSizeRatio, 
+	@lineHeight, @lineHeightRatio,
+	@paddingTB, @paddingTBRatio,
+	@paddingLR, @paddingLRRatio,
+	@delay: 0, @duration: 0.5s, @timing: ease-in-out,
+	@hColor, @hOpacity: 1,
+	@hBgColor, @hBgOpacity: 1,
+	@hBWidth: 0.0625rem, @hBStyle: solid, @hBColor, @hBRadius: 0, @textTransform: uppercase, @letterSpacing: 0.12rem, @fontWeight: bold);
+}
+
+.what-mixin-button-36(@color: @white, @bgColor: @yellow, @bColor: @yellow, @fontSize: 2.25rem, @fontSizeRatio: 0.01, @lineHeight: 2.35rem, @lineHeightRatio: 0.01, @paddingTB: 1rem, @paddingTBRatio: 0.01, @paddingLR: 0.5rem, @paddingLRRatio: 0.01, @hColor: @white, @hBgColor: @darkGray, @hBColor: @darkGray){
 	.enc-cursor-hand;
 	.enc-button(
 	@color, @opacity: 1,
@@ -95,8 +126,6 @@
 	}
 }
 .three-fourths-border{
-	.enc-row;
-	.enc-align-boxsizing;
 	.enc-border-all(0rem, 0.125rem, 0.125rem, 0.125rem, solid, @yellow, 0);
 }
 
@@ -150,11 +179,28 @@
 }
 
 .what-mixin-content-left{
-	.enc-column(30%, 30%, 15%, 15%);
+	.enc-column(100%, 25%, 15%, 15%);
 	.what-mixin-heading-padding;
 }
 .what-mixin-content-right{
-	.enc-column(70%, 70%, 85%, 85%);
-	.enc-padding-auto-right(1.3rem, 0.04);
+	.enc-column(100%, 75%, 85%, 85%);
+	.enc-padding-auto-right-xs(0, 0);
+	.enc-padding-auto-right-sm(1.62rem, 0.04);
+	.enc-padding-auto-right-md(1.82rem, 0.04);
+	.enc-padding-auto-right-lg(2rem, 0.04);
 	.enc-align-boxsizing;
+}
+
+.what-mixin-text-align{
+	.enc-flex-manual-all-xs(text-align, center);
+	.enc-flex-manual-all-sm(text-align, left);
+	.enc-flex-manual-all-md(text-align, left);
+	.enc-flex-manual-all-lg(text-align, left);
+}
+
+.what-xs-lr-padding{
+	.enc-padding-auto-equal-leftright-xs(1rem, 0.001);
+	.enc-padding-auto-equal-leftright-sm(0, 0);
+	.enc-padding-auto-equal-leftright-md(0, 0);
+	.enc-padding-auto-equal-leftright-lg(0, 0);
 }

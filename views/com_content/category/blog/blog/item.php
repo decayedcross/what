@@ -11,16 +11,14 @@ $h = new html();
 $sch = new ENCschema();
 $css = new css();
 $string = new string();
-
-$link = new link();
 $menu = new menu();
 
-$menuId = JRequest::getVar('Itemid');
+$menu->link(JRequest::getVar('Itemid'));
+$menu->article($this->id, JRequest::getVar('Itemid'));
 $text = $string->breakExplode($this->introtext);
 $img = json_decode($this->images);
 $metadata = json_decode($this->metadata);
 $metakey = $string->explode($this->metakey, ',');
-$menu->link($menuId);
 
 $social = array(
 	'{"class":"fb-share-button", "data-href":"'.$menu->currentLink.'", "data-layout":"button_count"}',
@@ -28,65 +26,63 @@ $social = array(
 	'{"class":"twitter-share-button", "data-url":"'.$menu->currentLink.'"}'
 );
 
-$h->b('article', 0, 1, $sch::blogPosting, $css::classContent);
-	$h->b('figure', 0,1, $sch::imageObject);
-		$h->b('img', 0, 1, $sch::contentUrl, '{"src":"'.$img->image_intro.'", "alt":"'.$img->image_intro_alt.'"}');
-	$h->b('figure', 1,1);
-	$h->b('section', 0, 1, '', '{"class":"inner"}');
-		$h->b('div', 0, 1, '', $css::classLeft);
-			$h->b('time', 0, 1, $sch::datePublished);
-				$h->b('span', 0, 1);
-					$h->e(1, $string->formatDate('d', $this->created));
-				$h->b('span', 1, 1);
-				$h->b('span', 0, 1);
-					$h->e(1, $string->formatDate('m.Y', $this->created));				
-				$h->b('span', 1, 1);				
-			$h->b('time', 1, 1);
-		$h->b('div', 1, 1);
-		$h->b('div', 0, 1, '', $css::classRight);
-			$h->b('h2', 0, 1, $sch::headline);
-				$h->b('a', 0, 1, '', '{"href":"'.$link->article($this->id, $menuId).'"}');
-					$h->e(1, $this->title);
-				$h->b('a', 1, 1);
-			$h->b('h2', 1, 1);
-			$h->b('span', 0, 1, $sch::personAuthor);
-				$h->b('a', 0, 1, $sch::url, '{"href":"'.$metadata->xreference.'"}');
-					$h->b('span', 0, 1);
-						$h->e(1, 'by ');
-					$h->b('span', 1, 1);
-					$h->b('span', 0, 1, $sch::name);
-							$h->e(1, $metadata->author);
-					$h->b('span', 1, 1);
-				$h->b('a', 1, 1);
-			$h->b('span', 1, 1);
-			$h->b('ul', 0, 1, '', '{"class":"share"}');
-				foreach($social as $socialKey => $socialValue){
-					$h->b('li', 0, 1);
-						$h->b('a', 0, 1, '', $socialValue);
-						$h->b('a', 1, 1);
-					$h->b('li', 1, 1);	
-				}
-			$h->b('ul', 1, 1);
-			$h->b('ul', 0, 1, '', '{"class":"hashtags"}');
-				foreach($metakey as $metakeyKey => $metakeyValue){
-					$h->b('li', 0, 1);
-						$h->b('a', 0, 1, '', '{"href":"https://tagboard.com/'.trim($metakeyValue).'/search"}');
-							$h->e(1, ' #'.trim($metakeyValue));
-						$h->b('a', 1, 1);
-					$h->b('li', 1, 1);
-				}
-			$h->b('ul', 1, 1);
-			$h->b('section', 0, 1, $sch::articleBody);
-				$h->b('p', 0, 1);
-					$h->e(1, $this->metadesc);
-				$h->b('p', 1, 1);
-			$h->b('section', 1, 1);
-			$h->b('a', 0, 1, '', '{"href":"'.$link->article($this->id, $menuId).'"}');
-				$h->b('button', 0, 1);
-					$h->e(1, 'Read More');
-				$h->b('button', 1, 1);
+if($resultsKey == 0){
+	$h->b('section', 0, 1, $sch::blogPosting, '{"class":"row"}');
+	$h->b('div', 0, 1, '', '{"class":"col col-center col-base-8"}');
+}
+	$h->b('article', 0, 1, '', '{"class":"col col-base-12 col-xs-12 col-sm-6 col-md-6 col-lg-6", "data-mh":"blog-catergory-article"}');
+			$h->b('a', 0, 1, '', '{"href":"'.$menu->articleLink.'"}');
+				$h->b('figure', 0,1, $sch::imageObject, '{"class":"col col-xs-12"}');
+					$h->b('img', 0, 1, $sch::contentUrl, '{"class":"col col-xs-12", "src":"'.$img->image_intro.'", "alt":"'.$img->image_intro_alt.'"}');
+					$h->b('div', 0, 1, '', '{"style":"background-image: url('.$img->image_intro.')", "class":"div-img col col-base-12", "data-min-height":"40"}');
+					$h->b('div', 1, 1);
+				$h->b('figure', 1,1);
 			$h->b('a', 1, 1);
-		$h->b('div', 1, 1);
+			$h->b('section', 0, 1, '', '{"class":"col col-base-12"}');
+
+				$h->b('div', 0, 1, '', '{"class":"col col-base-12 col-xs-12 col-sm-2 col-md-2 col-lg-2", "data-mh":"blog-catergory-col"}');
+					$h->b('time', 0, 1, $sch::datePublished, '{"class":"col col-base-12"}');
+						$h->b('div', 0, 1, '', '{"class":"col col-base-12"}');
+							$h->b('span', 0, 1, '', '{"class":"col col-base-12"}');
+								$h->e(1, $string->formatDate('d', $this->created));
+							$h->b('span', 1, 1);
+							$h->b('span', 0, 1, '', '{"class":"col col-base-12"}');
+								$h->e(1, $string->formatDate('m.Y', $this->created));				
+							$h->b('span', 1, 1);	
+						$h->b('div', 1, 1);
+					$h->b('time', 1, 1);
+				$h->b('div', 1, 1);
+
+				$h->b('div', 0, 1, '', '{"class":"col col-base-12 col-xs-12 col-sm-10 col-md-10 col-lg-10", "data-mh":"blog-catergory-col"}');
+					$h->b('h2', 0, 1, $sch::headline, '{"data-mh":"blog-catergory-h2"}');
+						$h->b('a', 0, 1, '', '{"href":"'.$menu->articleLink.'"}');
+							$h->e(1, $this->title);
+						$h->b('a', 1, 1);
+					$h->b('h2', 1, 1);
+					$h->b('div', 0, 1, $sch::personAuthor, '{"class":"author"}');
+							$h->b('span', 0, 1);
+								$h->e(1, 'by ');
+							$h->b('span', 1, 1);
+							$h->b('a', 0, 1, $sch::name, '{"href":"'.$metadata->xreference.'"}');
+								$h->e(1, $metadata->author);
+							$h->b('a', 1, 1);
+					$h->b('div', 1, 1);
+					$h->b('div', 0, 1, $sch::articleBody, '', '{"class":"col col-base-12"}');
+						$h->b('p', 0, 1, '', '{"data-mh":"blog-caterogry-paragraph", "class":"col col-base-12 col-xs-12 col-sm-11 col-md-11 col-lg-11"}');
+								$h->e(1, $this->metadesc);
+						$h->b('p', 1, 1);
+					$h->b('div', 1, 1);
+					$h->b('a', 0, 1, '', '{"href":"'.$menu->articleLink.'", "class":"col col-base-12"}');
+						$h->b('button', 0, 1);
+							$h->e(1, 'Read More');
+						$h->b('button', 1, 1);				
+					$h->b('a', 1, 1);
+				$h->b('div', 1, 1);	
+
+			$h->b('section', 1, 1);
+	$h->b('article', 1, 1);
+if($resultsKey == $this->showLimit){
+	$h->b('div', 1, 1);
 	$h->b('section', 1, 1);
-$h->b('article', 1, 1);
+}
 ?>

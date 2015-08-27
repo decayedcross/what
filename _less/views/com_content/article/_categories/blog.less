@@ -1,0 +1,132 @@
+#blog-article{
+	article{
+		text-align: center;
+		.img{
+			background-size: cover;
+		}
+		h2{
+			.what-mixin-36(@color: @black);
+			text-align: left;
+		}
+		time{
+				.enc-background-color(@yellow, 1);
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				span{
+					.what-mixin-36(@white);
+				}
+				span + span{
+					.what-mixin-14(@white);
+			}
+		}
+		.share{
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+		.author{
+			text-align: left;
+			span{
+				.what-mixin-14(@color: @black);
+			}
+			a{
+				.what-mixin-20(@color: @yellow);
+			}
+		}
+		p{
+			.enc-transition-all(0s, 0.5s, ease-in-out);
+			.what-mixin-14(@color: @lightGray);
+			text-align: justify;
+			padding-bottom: 1rem;
+		}
+		.tags{
+			
+		}
+	}
+}
+
+
+/*#blog-article{
+	.enc-row;
+	#article{
+		#figure{
+			#img{
+				padding-left: 0;
+				padding-right: 0;
+				display: none;
+			}
+			#img-background{
+				.enc-flex-auto(min-height, 35vh, 1);
+				background-size: cover;
+				background-position: center;
+			}
+		}
+		#section{
+			.three-fourths-border;
+			#left{
+				#time{
+					#box{
+						#date{
+							.enc-background-color(@yellow, 1);
+							.enc-padding-auto-top(0.5rem, 0.01);
+							.what-mixin-36(@white, @text-align: center);
+							.enc-transition-all(0s, 0.5s, ease-in-out);
+						}
+						#month-year{
+							.what-mixin-14(@white, @text-align: center);
+							.enc-padding-auto-topbottom(0rem, 0, 0.5rem, 0.01);
+							.enc-background-color(@yellow, 1);	
+						}
+					}
+				}
+				#share{
+					li{
+						padding-top: 5%;
+						padding-bottom: 5%;
+						padding-left: 0;
+						padding-right: 0;
+					}
+				}
+			}
+			#right{
+				.enc-padding-auto-right(4%, -0.06);
+				.enc-padding-auto-left(4%, -0.06);
+				#h2{
+					.what-mixin-36(@color: @black);
+					.enc-padding-auto-equal-topbottom(2.5%, -0.09);
+				}
+				#author{
+					#by{
+						.what-mixin-20(@color: @black);
+						.enc-padding-auto-right(2%, -0.06);
+					}
+					#name{
+						.what-mixin-20(@color: @yellow);
+					}
+				}
+				#paragraphs{
+					p{
+						.what-mixin-20(@color: @textGray);
+						.enc-padding-auto-equal-topbottom(2.5%, -0.09);
+						text-align: justify;
+					}
+				}
+				#tags{
+					li{
+						.enc-transition-all(0s, 0.5s, ease-in-out);
+						padding: 1%;
+						&:hover{
+							.enc-background-color(@textGray);
+						}
+						&:hover a{
+							.enc-color(@white);
+						}
+						a{
+							.enc-transition-all(0s, 0.5s, ease-in-out);
+							.what-mixin-20(@color: @iconGray);
+						}
+					}
+				}
+			}
+		}
+	}
+}*/

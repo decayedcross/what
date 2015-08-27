@@ -1,0 +1,34 @@
+/*
+SECTION 5
+HOME || ABOUT || CONTACT
+*/
+
+#header{
+	#section-5{
+		.enc-display-md-lg;
+		.row{
+			background-color: @black;
+			position: fixed;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			z-index: 999;
+			-webkit-transform: translateZ(0);
+          	transform: translateZ(0);
+			svg{
+				width: 25%;
+				height: 5rem;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}	
+			ul{
+				li{
+					a{
+						.what-mixin-fontsize(1.6rem, 1.75rem, 0.01);
+						color: @white;		
+					}
+				}
+			}
+		}
+	}
+}

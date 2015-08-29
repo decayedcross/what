@@ -10,15 +10,19 @@
 	<version>1.0</version>
 	<description>Joomla 3.x tmeplate using Bower and Git</description>
 	<files>
+		<filename>.bowerrc</filename>
+		<filename>_define.php</filename>
+		<filename>composer.json</filename>
+		<filename>composer.lock</filename>
 		<filename>index.php</filename>
 		<filename>README.md</filename>
 		<filename>templateDetails.xml</filename>
-		<filename>.bowerrc</filename>
+		<folder>_ajaxHandlers</folder>
 		<folder>_less</folder>
-		<folder>config</folder>
 		<folder>css</folder>
 		<folder>fonts</folder>
 		<folder>scripts</folder>
+		<folder>vendor</folder>
 		<folder>views</folder>
 	</files>
 	<positions>

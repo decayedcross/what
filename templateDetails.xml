@@ -14,14 +14,12 @@
 		<filename>README.md</filename>
 		<filename>templateDetails.xml</filename>
 		<filename>.bowerrc</filename>
-		<folder>bower</folder>
+		<folder>_less</folder>
+		<folder>config</folder>
 		<folder>css</folder>
 		<folder>fonts</folder>
-		<folder>handlers</folder>
-		<folder>html</folder>
-		<folder>js</folder>
-		<folder>_less</folder>
-		<folder>include</folder>
+		<folder>scripts</folder>
+		<folder>views</folder>
 	</files>
 	<positions>
 		<position>header</position>

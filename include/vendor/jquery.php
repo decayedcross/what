@@ -1,1 +1,0 @@
-<script src="templates/what/bower/jquery/dist/jquery.min.js"></script>

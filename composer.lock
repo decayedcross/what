@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/antfuentes87/titan.git",
-                "reference": "102b5784b4e4244a72813f72c14715111c5c8249"
+                "reference": "3bf35968085c0fe4f883f39769a4324989219cbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antfuentes87/titan/zipball/102b5784b4e4244a72813f72c14715111c5c8249",
-                "reference": "102b5784b4e4244a72813f72c14715111c5c8249",
+                "url": "https://api.github.com/repos/antfuentes87/titan/zipball/3bf35968085c0fe4f883f39769a4324989219cbc",
+                "reference": "3bf35968085c0fe4f883f39769a4324989219cbc",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
                 "source": "https://github.com/antfuentes87/titan/tree/master",
                 "issues": "https://github.com/antfuentes87/titan/issues"
             },
-            "time": "2015-08-29 04:58:20"
+            "time": "2015-09-03 22:31:59"
         },
         {
             "name": "matthiasmullie/minify",

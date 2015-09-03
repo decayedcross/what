@@ -1,0 +1,23 @@
+{
+  "name": "cssRefresh",
+  "main": "cssRefresh.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/antfuentes87/cssRefresh",
+  "authors": [
+    "robinflyhigh"
+  ],
+  "description": "Auto refresh your CSS!",
+  "keywords": [
+    "css",
+    "javascript",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jquery.tap",
+  "homepage": "https://github.com/antfuentes87/jquery.tap",
+  "version": "1.1.1",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.1",
+    "commit": "e395732af417c5e720e82b9364a854b7cd232af8"
+  },
+  "_source": "git://github.com/antfuentes87/jquery.tap.git",
+  "_target": "~1.1.1",
+  "_originalSource": "antfuentes87/jquery.tap",
+  "_direct": true
+}

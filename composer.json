@@ -6,6 +6,8 @@
 		}
 	],
 	 "require": {
-        "antfuentes/titan": "dev-master"
+        "antfuentes/titan": "dev-master",
+		"shubhamjain/php-id3": "@dev",
+		"james-heinrich/getid3": "@dev"
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "430a1eb3efa8bab2ed5af468bd0b2e3f",
+    "hash": "e279df30765b6e01a417009ce0656e97",
     "packages": [
         {
             "name": "antfuentes/titan",
@@ -35,6 +35,42 @@
                 "issues": "https://github.com/antfuentes87/titan/issues"
             },
             "time": "2015-09-03 22:31:59"
+        },
+        {
+            "name": "james-heinrich/getid3",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamesHeinrich/getID3.git",
+                "reference": "de973d53e5887f734c3c40a62896ff49f6f736cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/de973d53e5887f734c3c40a62896ff49f6f736cc",
+                "reference": "de973d53e5887f734c3c40a62896ff49f6f736cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "getid3/getid3.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "description": "PHP script that extracts useful information from popular multimedia file formats",
+            "homepage": "http://www.getid3.org/",
+            "keywords": [
+                "codecs",
+                "php",
+                "tags"
+            ],
+            "time": "2015-08-14 18:20:07"
         },
         {
             "name": "matthiasmullie/minify",
@@ -198,13 +234,51 @@
             "description": "Converts CSS styles into inline style attributes in your HTML code",
             "homepage": "http://www.pelagodesign.com/sidecar/emogrifier/",
             "time": "2015-05-15 11:37:51"
+        },
+        {
+            "name": "shubhamjain/php-id3",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shubhamjain/PHP-ID3.git",
+                "reference": "0c844495829e55186fe5fc4ec48d0340444e9977"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shubhamjain/PHP-ID3/zipball/0c844495829e55186fe5fc4ec48d0340444e9977",
+                "reference": "0c844495829e55186fe5fc4ec48d0340444e9977",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PhpId3": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shubham Jain",
+                    "email": "shubham.jain.1@gmail.com"
+                }
+            ],
+            "description": "A MP3 ID3 tags reader in native PHP",
+            "time": "2015-08-06 19:46:29"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "antfuentes/titan": 20
+        "antfuentes/titan": 20,
+        "shubhamjain/php-id3": 20,
+        "james-heinrich/getid3": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

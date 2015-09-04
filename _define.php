@@ -22,4 +22,5 @@ define('YOUTUBE_API_PLAYLISTITEMS', 'https://www.googleapis.com/youtube/v3/playl
 define('YOUTUBE_CHANNEL', 'https://www.youtube.com/channel/');
 define('YOUTUBE_WATCH', 'https://www.youtube.com/watch?v=');
 define('YOUTUBE_EMBED', 'https://www.youtube.com/embed/');
+define('AUDIO_PATH', 'images/audio/');
 ?>

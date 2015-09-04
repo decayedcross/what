@@ -199,5 +199,81 @@
             "source": "https://github.com/antfuentes87/titan/tree/master",
             "issues": "https://github.com/antfuentes87/titan/issues"
         }
+    },
+    {
+        "name": "shubhamjain/php-id3",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shubhamjain/PHP-ID3.git",
+            "reference": "0c844495829e55186fe5fc4ec48d0340444e9977"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shubhamjain/PHP-ID3/zipball/0c844495829e55186fe5fc4ec48d0340444e9977",
+            "reference": "0c844495829e55186fe5fc4ec48d0340444e9977",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2015-08-06 19:46:29",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PhpId3": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Shubham Jain",
+                "email": "shubham.jain.1@gmail.com"
+            }
+        ],
+        "description": "A MP3 ID3 tags reader in native PHP"
+    },
+    {
+        "name": "james-heinrich/getid3",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/JamesHeinrich/getID3.git",
+            "reference": "de973d53e5887f734c3c40a62896ff49f6f736cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/de973d53e5887f734c3c40a62896ff49f6f736cc",
+            "reference": "de973d53e5887f734c3c40a62896ff49f6f736cc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-08-14 18:20:07",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "getid3/getid3.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL"
+        ],
+        "description": "PHP script that extracts useful information from popular multimedia file formats",
+        "homepage": "http://www.getid3.org/",
+        "keywords": [
+            "codecs",
+            "php",
+            "tags"
+        ]
     }
 ]

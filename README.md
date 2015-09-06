@@ -7,7 +7,7 @@
 <ol>
 <li>Log into Administration Backend of Joomla</li>
 <li>Go to Extenstions > Extnestions Manager</li>
-<li>Select the Install from URL</li>
+<li>Select the tab install from URL</li>
 <li>Insert https://github.com/decayedcross/what/archive/master.zip</li>
 <li>Go to the What template folder via SSH</li>
 <li>Enter the command <code>composer install</code></li>

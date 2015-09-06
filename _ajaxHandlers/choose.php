@@ -13,16 +13,17 @@ $results = $db->q("SELECT * FROM $db->categories WHERE alias = 'static'");
 
 foreach($results as $key => $data){
 	$explode = explode('/', $data['path']);
+	$city = str_replace ('-' , '' , $explode[1]);
 	if($state == $explode[0]){
 		$articleId = $data['id'];
 		
-		$itemIdQuery = $db->q("SELECT id FROM $db->menu WHERE menutype = '$explode[1]' AND alias = 'home-$explode[1]'");
+		//temIdQuery = $db->q("SELECT id FROM $db->menu WHERE menutype = '$city' AND alias = 'home-$city'");
 			
 		$contents = $db->q("SELECT * FROM $db->content WHERE catid = '$articleId' AND alias = 'home'");
 		
 		foreach($contents as $keyContent => $content){
 			$link = 'index.php?option=com_content&view=article&id='.$content["id"];
-			echo '<a style="color: black; font-size: 5rem;" href="'.$link.'">'.$explode[1].'</a>';
+			echo '<a style="color: black; font-size: 5rem;" href="'.$link.'">'.$city.'</a>';
 			echo '<br>';
 		}
 		

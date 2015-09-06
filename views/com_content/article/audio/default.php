@@ -6,7 +6,7 @@ li a:hover{text-decoration:none;}
 </style>
 
 <?php 
-require_once('templates/what/vendor/james-heinrich/getid3/getid3/getid3.php');
+/*require_once('templates/what/vendor/james-heinrich/getid3/getid3/getid3.php');
 		
 use Antfuentes\Titan\Joomla;
 
@@ -51,7 +51,7 @@ foreach($audio as $key => $val){
 
 echo '</ul>';
 
-echo '</div>';
+echo '</div>';*/
 
 ?>
 

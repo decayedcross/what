@@ -1,0 +1,47 @@
+.Wallop{
+  max-width: 100%;
+  .Wallop-list{
+    margin: 0;
+    .Wallop-item{
+      width: 100%;
+      background-size: cover;
+		background-repeat: no-repeat;
+    }
+    .next{
+      position: absolute;
+      top: 50%;
+      left: 90%;
+      font-size: 1.25rem;
+      color: white;
+    }
+    .previous{
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      font-size: 1.25rem;
+      color: white;
+    }
+  }
+  .Wallop-pagination{
+    width: 75%;
+    left: 15%;
+    position: absolute;
+    top: 95%;
+    .Wallop-dot{
+      float: left;
+      width: 33.33%;
+      img{
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+      }
+    }
+  }
+  .Wallop-dot--current{
+    img{
+      border-width: 0.25rem;
+      border-color: green;
+      border-style: solid;
+    }
+  }
+}

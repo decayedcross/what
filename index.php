@@ -15,6 +15,7 @@ $minifier->add(__DIR__.'/bower/gsap/src/minified/jquery.gsap.min.js');
 $minifier->add(__DIR__.'/bower/gsap/src/minified/easing/EasePack.min.js');
 $minifier->add(__DIR__.'/bower/gsap/src/minified/plugins/CSSPlugin.min.js');
 $minifier->add(__DIR__.'/bower/gsap/src/minified/TweenLite.min.js');
+$minifier->add(__DIR__.'/bower/wallop/js/Wallop.min.js');
 $minifier->add(__DIR__.'/bower/leviathan/src/js/init.js');
 $minifier->add(__DIR__.'/scripts/app.js');
 
@@ -36,19 +37,25 @@ $emogrifier->setCss(file_get_contents(__DIR__.'/css/load.css'));
 	<?php
 		$router->meta();
 	?>
+	  <link rel="stylesheet" href="templates/what/bower/font-awesome/css/font-awesome.min.css">
+	  <style type="text/css">
+		<?php echo file_get_contents(__DIR__.'/bower/wallop/css/wallop.css'); ?>
+	  	<?php echo file_get_contents(__DIR__.'/css/noinject.css'); ?>
+	  </style>
   </head>
   <body>
     <?php
 		if($router->routerView <> 'categories'){
-			$menu->build('intromenu', 'i', 1);
+			$menu->build('mainmenu', 'i', 1);
 			$db->tables();
-			$result = $db->q("SELECT * FROM $db->categories WHERE id = '$router->categoryParentId'");
-			$menu->build($result[0]['alias'], 'i', $router->routerId);
+			$result = $db->q("SELECT * FROM $db->categories WHERE id = '$router->categoryParentId'");	
+			$cleanAlias = $string->replaceString('-', '', $result[0]['alias']);
+			$menu->build($cleanAlias, 'i', $router->routerId);
 		}
 		echo $emogrifier->emogrify();
 	?>
 	<script>
 		<?php echo file_get_contents(__DIR__.'/scripts/load.js'); ?>
-	</script>
+    </script>
   </body>
 </html>

@@ -1,0 +1,48 @@
+#faq{
+	#section-3{
+		.title{
+			.what-element-padding;
+			font-size: 1.5rem;
+			color: @black;
+		}
+		.item-title{
+			padding: 0.50rem;
+			font-size: 1.5rem;
+			background-color: @white;
+			color: #666;
+		}
+		.content{
+			font-size: 1.10rem;
+			overflow: hidden;
+			p{
+				color: #333;
+				padding: 0.50rem;
+			}
+			ul{
+				list-style-type: disc;
+				li{
+					margin-left: 2rem;
+					padding-bottom: 0.25rem;
+				}
+			}
+			i{
+				font-weight: 600;
+				&:before{
+					content: '*';
+				}
+			}
+		}
+		.list{
+			//IF NEEDED
+		}
+		.item{
+			cursor: pointer;
+			border-top: solid 1px #D3D1D1;
+			border-left: solid 1px #D3D1D1;
+			border-right: solid 1px #D3D1D1;
+			&:last-of-type {
+				border-bottom: solid 1px #D3D1D1;
+ 	 		}
+		}
+	}
+}

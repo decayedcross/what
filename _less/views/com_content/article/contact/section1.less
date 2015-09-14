@@ -1,39 +1,46 @@
 #contact{
 	#section-1{
-		.row{
-			text-align: center;
-			h1{
-				.what-mixin-72;
-			}
-			ul{
-				.what-mixin-ul;				
-				.enc-padding-auto-equal-leftright(1rem, 0.01);
-				.enc-padding-auto-equal-topbottom(1rem, 0.01);				
-				.enc-align-boxsizing;
-				li{					
-					h2{
-						.what-mixin-36(@black);
-						.enc-padding-auto-bottom(1rem, 0.01);						
-					}
-					a{
-						.enc-text-deco;
-						.what-mixin-14(@yellow);
-					}
-					.fa{
-						padding-right: 0.5rem;
-					}
-					.fa-phone{
-						padding-right: 0.80rem;
-					}
-					.fa-fax{
-						padding-right: 0.60rem;
-					}
-					.indent{
-						padding-left: 1.5rem;
-					}
-					.what-mixin-14(@yellow);
-				}
-			}			
+		.title{
+			.what-element-padding;
+			font-size: 1.5rem;
+			color: @black;
+		}
+		.sub-title{
+			.what-element-padding;
+			font-size: 1.35rem;
+			color: #7d7d7d;
+		}
+		.items-col{
+			.what-element-padding;
+		}
+		.items{
+			//IF NEEDED	
+		}
+		.img-col{
+			.what-element-padding;
+		}
+		.img{
+			float: right;
+		}
+		.item{
+			//IF NEEDED
+		}
+		.item-title{
+			.what-element-padding;
+			font-size: 1.20rem;
+			color: #393939;
+		}
+		.item-list{
+			//IF NEEDED
+		}
+		.item-list-item{
+			.what-element-padding;
+			padding-left: 1.5rem;
+			color: #393939;
+			font-size: 1.10rem;
+		}
+		.item-list-link{
+			color: @web-orange;
 		}
 	}
 }

@@ -8,12 +8,12 @@ $pagination = new Joomla\Pagination();
 $category->deploy(
 JRequest::getVar('id'), 
 JRequest::getVar('Itemid'), 
-4, 
+99, 
 __DIR__.'/item', 
 $this->categoryAlias, 
 JRequest::getVar('view'), 
-$this->categoryTitle,
-''
+$this->categoryTitle
 );
-$pagination->load(JRequest::getVar('Itemid'), $category->pagesTotal);
+
+//$pagination->load(JRequest::getVar('Itemid'), $category->pagesTotal);
 ?>

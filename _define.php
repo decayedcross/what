@@ -23,4 +23,5 @@ define('YOUTUBE_CHANNEL', 'https://www.youtube.com/channel/');
 define('YOUTUBE_WATCH', 'https://www.youtube.com/watch?v=');
 define('YOUTUBE_EMBED', 'https://www.youtube.com/embed/');
 define('AUDIO_PATH', 'images/audio/');
+define('GOOGLE_MAP_API', 'AIzaSyCZ2TUfs-xFUnhgcmTtkderv6_3-3QwmDQ');
 ?>

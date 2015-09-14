@@ -12,8 +12,8 @@
 	<files>
 		<filename>.bowerrc</filename>
 		<filename>_define.php</filename>
+		<filename>bower.json</filename>
 		<filename>composer.json</filename>
-		<filename>composer.lock</filename>
 		<filename>index.php</filename>
 		<filename>README.md</filename>
 		<filename>templateDetails.xml</filename>
@@ -22,15 +22,9 @@
 		<folder>css</folder>
 		<folder>fonts</folder>
 		<folder>scripts</folder>
-		<folder>vendor</folder>
 		<folder>views</folder>
 	</files>
 	<positions>
-		<position>header</position>
-		<position>top-menu</position>
-		<position>logo</position>
-		<position>development</position>
-		<position>footer</position>
-		<position>footer-menu</position>
+		<position>dummy</position>
 	</positions>
 </extension>

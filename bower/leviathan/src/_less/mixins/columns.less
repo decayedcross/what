@@ -1,9 +1,0 @@
-/*
-GENERATE COLUMNS FUNC
-*/
-.generate-columns(@n, @prefix, @size, @i: 1) when (@i =< @n) {
-	.@{prefix}-@{size}-@{i} {
-		width: (@i * 100% / @n);
-	}
-	.generate-columns(@n, @prefix, @size, (@i + 1));
-}
